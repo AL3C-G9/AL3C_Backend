@@ -24,11 +24,16 @@ public class Question {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     
-    @Column
+    @Column(name = "question")
     private String question;
     
-    @Column
+    @Column(name =  "reponse")
     private String reponse;
+
+
+    @Column()
+    private int pointsGagner;
+
 
 
     @OneToMany(mappedBy = "question_id", cascade = CascadeType.ALL )
