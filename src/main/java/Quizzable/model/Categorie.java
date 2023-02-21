@@ -19,10 +19,27 @@ public class Categorie {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
+    private Long idC;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "nomCat")
+    private String categorie;
+
+    public Long getIdC() {
+        return idC;
+    }
+
+    public void setIdC(Long idC) {
+        this.idC = idC;
+    }
+    
+    public String getCategorie() {
+        return categorie;
+    }
+
+    public void setCategorie(String categorie) {
+        this.categorie = categorie;
+    }
+
 
     @OneToMany(mappedBy = "categorie_id")
     private List<Question> questions;

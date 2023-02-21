@@ -10,6 +10,7 @@ import javax.persistence.Table;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import lombok.Data;
@@ -22,25 +23,30 @@ public class Question {
    
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
+    private Long idQ;
     
     @Column(name = "question")
     private String question;
     
-    @Column(name =  "reponse")
-    private String reponse;
+    public Long getIdQ() {
+        return idQ;
+    }
 
+    public void setIdQ(Long idQ) {
+        this.idQ = idQ;
+    }
+    
+    public String getQuestion() {
+        return question;
+    }
 
-    @Column()
-    private int pointsGagner;
-
-
-
-    @OneToMany(mappedBy = "question_id", cascade = CascadeType.ALL )
-    List<Respons> respons;
-
+    public void setQuestion(String question) {
+        this.question = question;
+    }
 
     @ManyToOne
+    @JoinColumn(name = "categorie_id")
     private Categorie categorie;
+
 
 }
