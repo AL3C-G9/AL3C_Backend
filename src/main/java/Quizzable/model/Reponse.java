@@ -20,7 +20,7 @@ public class Reponse {
     private Long idR;
 
     @Column(name = "reponse")
-    private String reponse;
+    private String rep;
     
     public Long getIdR() {
         return idR;
@@ -31,14 +31,14 @@ public class Reponse {
     }
     
     public String getReponse() {
-        return reponse;
+        return rep;
     }
 
     public void setReponse(String reponse) {
-        this.reponse = reponse;
+        this.rep = reponse;
     }
 
     @ManyToOne
-    @JoinColumn(name = "question_id")
+    @JoinColumn(name = "idQ")
     private Question question;
 }
