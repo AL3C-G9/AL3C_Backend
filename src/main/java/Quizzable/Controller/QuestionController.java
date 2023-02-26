@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-
-
 @RestController
 @RequestMapping("question")
 @CrossOrigin
@@ -25,31 +23,24 @@ public class QuestionController {
     @Autowired
     QuestionService questionService;
 
-
-    @GetMapping(value="/")
+    @GetMapping(value = "/")
     public List<Question> getAllQuestion() {
         return questionService.getAllQuestion();
     }
 
-
     @GetMapping(value = "")
-    public Question getQuestion(@RequestParam Long id){
+    public Question getQuestion(@RequestParam Long id) {
         return questionService.getQuestion(id);
     }
 
-
-    @PostMapping(value="path")
+    @PostMapping(value = "path")
     public void saveQuestion(@RequestBody Question entity) {
         questionService.saveQuestion(entity);
     }
-    
-    
+
     @DeleteMapping(value = "")
-    public void deleteQuention(@RequestParam Long id){
-        questionService.deleteQuention(id);
+    public void deleteQuention(@RequestParam Long id) {
+        questionService.deleteQuestion(id);
     }
 
-
-
-    
 }

@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.Data;
-
+//salut
 
 @Entity
 @Data
@@ -24,8 +24,4 @@ public class User {
     
     @Column
     private String email;
-
-    
-
-    
 }
