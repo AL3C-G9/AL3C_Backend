@@ -45,7 +45,7 @@ public class Question {
     }
 
     @ManyToOne
-    @JoinColumn(name = "categorie_id")
+    @JoinColumn(name = "idC")
     private Categorie categorie;
 
 
