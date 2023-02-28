@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import Quizzable.model.Carte;
 
 @Repository
-public interface CarteRepository extends JpaRepository<Carte, Long>{
+public interface CarteRepository extends JpaRepository<Carte, String>{
 
     
     

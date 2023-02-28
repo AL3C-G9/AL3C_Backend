@@ -18,7 +18,7 @@ public class QuestionService {
       return questionRepository.findAll();
    }
 
-   public Question getQuestion(Long id){
+   public Question getQuestion(String id){
      return questionRepository.findById(id).get();
    }
 
@@ -28,7 +28,7 @@ public class QuestionService {
    }
 
 
-   public void  deleteQuestion(Long id){
+   public void  deleteQuestion(String id){
     questionRepository.deleteById(id);
    }
 
