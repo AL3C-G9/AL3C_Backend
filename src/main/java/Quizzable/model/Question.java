@@ -23,16 +23,16 @@ public class Question {
    
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long idQ;
+    private String idQ;
     
     @Column(name = "question")
     private String question;
     
-    public Long getIdQ() {
+    public String getIdQ() {
         return idQ;
     }
 
-    public void setIdQ(Long idQ) {
+    public void setIdQ(String idQ) {
         this.idQ = idQ;
     }
     
@@ -45,7 +45,7 @@ public class Question {
     }
 
     @ManyToOne
-    @JoinColumn(name = "categorie_id")
+    @JoinColumn(name = "idC")
     private Categorie categorie;
 
 

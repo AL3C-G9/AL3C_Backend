@@ -14,7 +14,7 @@ public class ReponsesCorrectesService {
       return ReponsesCorrectesRepository.findAll();
    }
 
-   public ReponsesCorrectes getReponsesCorrectes(Long id){
+   public ReponsesCorrectes getReponsesCorrectes(String id){
      return ReponsesCorrectesRepository.findById(id).get();
    }
 
@@ -22,7 +22,7 @@ public class ReponsesCorrectesService {
       ReponsesCorrectesRepository.save(ReponsesCorrectes);
    }
 
-   public void  deleteReponsesCorrectes(Long id){
+   public void  deleteReponsesCorrectes(String id){
     ReponsesCorrectesRepository.deleteById(id);
    }
     

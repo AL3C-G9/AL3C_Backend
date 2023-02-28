@@ -17,16 +17,16 @@ public class Reponse {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long idR;
+    private String idR;
 
     @Column(name = "reponse")
     private String rep;
     
-    public Long getIdR() {
+    public String getIdR() {
         return idR;
     }
 
-    public void setIdR(Long idR) {
+    public void setIdR(String idR) {
         this.idR = idR;
     }
     
