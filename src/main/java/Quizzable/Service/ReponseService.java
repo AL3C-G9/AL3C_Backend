@@ -17,7 +17,7 @@ public class ReponseService {
       return reponseRepository.findAll();
    }
 
-   public Reponse getReponse(Long id){
+   public Reponse getReponse(String id){
      return reponseRepository.findById(id).get();
    }
 
@@ -27,7 +27,7 @@ public class ReponseService {
    }
 
 
-   public void  deleteReponse(Long id){
+   public void  deleteReponse(String id){
     reponseRepository.deleteById(id);
    }
 }

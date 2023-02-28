@@ -18,16 +18,16 @@ public class ReponsesCorrectes {
 
     @Id
     //@GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long idR;
+    private String idR;
 
     @Id
-    private Long idQ;
+    private String idQ;
 
-    public Long getIdR() {
+    public String getIdR() {
         return idR;
     }
 
-    public Long getIdQ() {
+    public String getIdQ() {
         return idQ;
     }
 

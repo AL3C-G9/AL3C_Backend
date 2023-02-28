@@ -29,7 +29,7 @@ public class QuestionController {
     }
 
     @GetMapping(value = "")
-    public Question getQuestion(@RequestParam Long id) {
+    public Question getQuestion(@RequestParam String id) {
         return questionService.getQuestion(id);
     }
 
@@ -39,7 +39,7 @@ public class QuestionController {
     }
 
     @DeleteMapping(value = "")
-    public void deleteQuention(@RequestParam Long id) {
+    public void deleteQuention(@RequestParam String id) {
         questionService.deleteQuestion(id);
     }
 
