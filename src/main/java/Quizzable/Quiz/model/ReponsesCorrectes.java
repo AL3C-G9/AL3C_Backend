@@ -10,25 +10,17 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name = "reponseCorrectes")
+
 public class ReponsesCorrectes {
 
     @Id
-    private String idR;
-
-    private String idQ;
-
-    public String getIdR() {
-        return idR;
-    }
-
-    public String getIdQ() {
-        return idQ;
-    }
+    private String idRC;
 
     @OneToOne
+    @JoinColumn(name = "idQ")
     private Question question;
-
     @OneToOne
     @JoinColumn(name = "idR")
     private Reponse reponse;
+
 }

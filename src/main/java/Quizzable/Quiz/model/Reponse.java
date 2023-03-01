@@ -7,6 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.Data;
 
@@ -16,12 +17,11 @@ import lombok.Data;
 public class Reponse {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private String idR;
 
     @Column(name = "reponse")
     private String rep;
-    
+
     public String getIdR() {
         return idR;
     }
@@ -29,7 +29,7 @@ public class Reponse {
     public void setIdR(String idR) {
         this.idR = idR;
     }
-    
+
     public String getReponse() {
         return rep;
     }
@@ -39,6 +39,9 @@ public class Reponse {
     }
 
     @ManyToOne
-    @JoinColumn(name = "idQ")
     private Question question;
+
+    @OneToOne
+    private ReponsesCorrectes reponseCorrecte;
+
 }

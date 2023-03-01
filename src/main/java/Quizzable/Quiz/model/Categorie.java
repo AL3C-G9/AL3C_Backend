@@ -12,9 +12,8 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name= "categorie")
+@Table(name = "categorie")
 public class Categorie {
-    
 
     @Id
     private String idC;
@@ -29,7 +28,7 @@ public class Categorie {
     public void setIdC(String idC) {
         this.idC = idC;
     }
-    
+
     public String getCategorie() {
         return nomCat;
     }
@@ -37,7 +36,6 @@ public class Categorie {
     public void setCategorie(String categorie) {
         this.nomCat = nomCat;
     }
-
 
     @OneToMany(mappedBy = "categorie")
     private List<Question> questions;
