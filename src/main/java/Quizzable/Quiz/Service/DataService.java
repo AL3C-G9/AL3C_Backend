@@ -1,4 +1,4 @@
-package Quizzable.Service;
+package Quizzable.Quiz.Service;
 
 
 
