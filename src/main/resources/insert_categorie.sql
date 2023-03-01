@@ -1,8 +1,9 @@
-insert into Categorie(idC, nomCat) values ('C1', 'Air');
-insert into Categorie(idC, nomCat) values ('C2', 'Climat');
-insert into Categorie(idC, nomCat) values ('C3', 'Dechets');
-insert into Categorie(idC, nomCat) values ('C4', 'Biologie');
-insert into Categorie(idC, nomCat) values ('C5', 'Pollution');
-insert into Categorie(idC, nomCat) values ('C6', 'Eau');
-insert into Categorie(idC, nomCat) values ('C7', 'Ressources naturelles');
-insert into Categorie(idC, nomCat) values ('C8', 'Catastrophes naturelles');
+insert into Categorie values 
+('C1', 'Air'),
+('C2', 'Climat'),
+('C3', 'Dechets'),
+('C4', 'Biologie'),
+('C5', 'Pollution'),
+('C6', 'Eau'),
+('C7', 'Ressources naturelles'),
+('C8', 'Catastrophes naturelles');
