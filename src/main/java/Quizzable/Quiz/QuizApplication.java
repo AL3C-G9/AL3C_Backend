@@ -32,6 +32,7 @@ public class QuizApplication implements CommandLineRunner {
 		// questionService.loadQuestionData();
 		// reponseService.loadReponseData();
 		// repcorrectesService.loadReponseCorrecteData();
+		//
 	}
 
 }
