@@ -1,11 +1,12 @@
-package Quizzable.Service;
+package Quizzable.Quiz.Service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import Quizzable.model.Reponse;
-import Quizzable.repository.ReponseRepository;
+
+import Quizzable.Quiz.repository.ReponseRepository;
+import Quizzable.Quiz.model.Reponse;
 
 @Service
 public class ReponseService {

@@ -1,4 +1,4 @@
-package Quizzable.Service;
+package Quizzable.Quiz.Service;
 
 import org.springframework.stereotype.Service;
 
@@ -10,8 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.init.ScriptException;
-import Quizzable.model.Categorie;
-import Quizzable.repository.CategorieRepository;
+
+import Quizzable.Quiz.repository.CategorieRepository;
+import Quizzable.Quiz.model.Categorie;
 import io.micrometer.core.instrument.util.IOUtils;
 import jakarta.annotation.Resource;
 
