@@ -43,10 +43,11 @@ public class Question {
     @ManyToOne
     private Categorie categorie;
 
-    @OneToOne
-    private ReponsesCorrectes reponseCorrecte;
 
     @OneToMany(mappedBy = "question")
     private List<Reponse> reponses;
+
+    //@OneToOne
+    //private ReponsesCorrectes reponseCorrecte;
 
 }

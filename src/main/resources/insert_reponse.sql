@@ -1,600 +1,601 @@
-insert into Reponse (idr, rep, idq) values ('R001', 'Quelques années', 'Q001');
-insert into Reponse (idr, rep, idq) values ('R002', 'Des décennies', 'Q001');
-insert into Reponse (idr, rep, idq) values ('R003', 'Des siècles', 'Q001');
-insert into Reponse (idr, rep, idq) values ('R004', 'La stratosphère', 'Q002');
-insert into Reponse (idr, rep, idq) values ('R005', 'L''ionosphère', 'Q002');
-insert into Reponse (idr, rep, idq) values ('R006', 'L''atmosphère', 'Q002');
-insert into Reponse (idr, rep, idq) values ('R007', 'La stratosphère', 'Q003');
-insert into Reponse (idr, rep, idq) values ('R008', 'La mésosphère', 'Q003');
-insert into Reponse (idr, rep, idq) values ('R009', 'La troposphère', 'Q003');
-insert into Reponse (idr, rep, idq) values ('R010', 'L''oxygène', 'Q004');
-insert into Reponse (idr, rep, idq) values ('R011', 'L''azote', 'Q004');
-insert into Reponse (idr, rep, idq) values ('R012', 'Le dioxyde de carbone', 'Q004');
-insert into Reponse (idr, rep, idq) values ('R013', 'Une dépression', 'Q005');
-insert into Reponse (idr, rep, idq) values ('R014', 'Un anticyclone', 'Q005');
-insert into Reponse (idr, rep, idq) values ('R015', 'Une frontière', 'Q005');
-insert into Reponse (idr, rep, idq) values ('R016', '2 500 mètres', 'Q006');
-insert into Reponse (idr, rep, idq) values ('R017', '3 500 mètres', 'Q006');
-insert into Reponse (idr, rep, idq) values ('R018', '5 000 mètres', 'Q006');
-insert into Reponse (idr, rep, idq) values ('R019', 'Noir', 'Q001');
-insert into Reponse (idr, rep, idq) values ('R020', 'Bleu', 'Q001');
-insert into Reponse (idr, rep, idq) values ('R021', 'Gris', 'Q001');
-insert into Reponse (idr, rep, idq) values ('R022', '1 minute', 'Q008');
-insert into Reponse (idr, rep, idq) values ('R023', '5 minutes', 'Q008');
-insert into Reponse (idr, rep, idq) values ('R024', '10 minutes', 'Q008');
-insert into Reponse (idr, rep, idq) values ('R025', 'Paris', 'Q009');
-insert into Reponse (idr, rep, idq) values ('R026', 'Londres', 'Q009');
-insert into Reponse (idr, rep, idq) values ('R027', 'New York', 'Q009');
-insert into Reponse (idr, rep, idq) values ('R028', 'Le méthane', 'Q010');
-insert into Reponse (idr, rep, idq) values ('R029', 'Le dioxyde de carbone', 'Q010');
-insert into Reponse (idr, rep, idq) values ('R030', 'L''ozone', 'Q010');
-insert into Reponse (idr, rep, idq) values ('R031', '500 km/h', 'Q011');
-insert into Reponse (idr, rep, idq) values ('R032', '800 km/h', 'Q011');
-insert into Reponse (idr, rep, idq) values ('R033', '1 000 km/h', 'Q011');
-insert into Reponse (idr, rep, idq) values ('R034', 'Un baromètre', 'Q012');
-insert into Reponse (idr, rep, idq) values ('R035', 'Un thermomètre', 'Q012');
-insert into Reponse (idr, rep, idq) values ('R036', 'Un hygromètre', 'Q012');
-insert into Reponse (idr, rep, idq) values ('R037', 'La stratosphère', 'Q013');
-insert into Reponse (idr, rep, idq) values ('R038', 'La mésosphère', 'Q013');
-insert into Reponse (idr, rep, idq) values ('R039', 'La troposphère', 'Q013');
-insert into Reponse (idr, rep, idq) values ('R040', 'Un anémomètre', 'Q014');
-insert into Reponse (idr, rep, idq) values ('R041', 'Un baromètre', 'Q014');
-insert into Reponse (idr, rep, idq) values ('R042', 'Un thermomètre', 'Q014');
-insert into Reponse (idr, rep, idq) values ('R043', '299 792 km/s', 'Q015');
-insert into Reponse (idr, rep, idq) values ('R044', '299 792 458 m/s', 'Q015');
-insert into Reponse (idr, rep, idq) values ('R045', '299 792 458 km/s', 'Q015');
-insert into Reponse (idr, rep, idq) values ('R046', '0 degré Celsius', 'Q016');
-insert into Reponse (idr, rep, idq) values ('R047', '32 degrés Fahrenheit', 'Q016');
-insert into Reponse (idr, rep, idq) values ('R048', 'Les deux', 'Q016');
-insert into Reponse (idr, rep, idq) values ('R049', 'Dans la troposphère', 'Q017');
-insert into Reponse (idr, rep, idq) values ('R050', 'Dans la stratosphère', 'Q017');
-insert into Reponse (idr, rep, idq) values ('R051', 'Dans la mésosphère', 'Q017');
-insert into Reponse (idr, rep, idq) values ('R052', 'Un hygromètre', 'Q018');
-insert into Reponse (idr, rep, idq) values ('R053', 'Un baromètre', 'Q018');
-insert into Reponse (idr, rep, idq) values ('R054', 'Un thermomètre', 'Q018');
-insert into Reponse (idr, rep, idq) values ('R055', 'La troposphère', 'Q019');
-insert into Reponse (idr, rep, idq) values ('R056', 'La mésosphère', 'Q019');
-insert into Reponse (idr, rep, idq) values ('R057', 'L''ionosphère', 'Q019');
-insert into Reponse (idr, rep, idq) values ('R058', '400 km', 'Q020');
-insert into Reponse (idr, rep, idq) values ('R059', '500 km', 'Q020');
-insert into Reponse (idr, rep, idq) values ('R060', '600 km', 'Q020');
-insert into Reponse (idr, rep, idq) values ('R061', 'La convection', 'Q021');
-insert into Reponse (idr, rep, idq) values ('R062', 'La radiation', 'Q021');
-insert into Reponse (idr, rep, idq) values ('R063', 'La conduction', 'Q021');
-insert into Reponse (idr, rep, idq) values ('R064', 'Une tempête', 'Q022');
-insert into Reponse (idr, rep, idq) values ('R065', 'Un orage', 'Q022');
-insert into Reponse (idr, rep, idq) values ('R066', 'Une dépression', 'Q022');
-insert into Reponse (idr, rep, idq) values ('R067', 'Un anémomètre', 'Q023');
-insert into Reponse (idr, rep, idq) values ('R068', 'Un baromètre', 'Q023');
-insert into Reponse (idr, rep, idq) values ('R069', 'Un détecteur de particules fines', 'Q023');
-insert into Reponse (idr, rep, idq) values ('R070', '1 013 hPa', 'Q024');
-insert into Reponse (idr, rep, idq) values ('R071', '101,3 kPa', 'Q024');
-insert into Reponse (idr, rep, idq) values ('R072', 'Les deux', 'Q024');
-insert into Reponse (idr, rep, idq) values ('R073', 'L''évaporation', 'Q025');
-insert into Reponse (idr, rep, idq) values ('R074', 'La condensation', 'Q025');
-insert into Reponse (idr, rep, idq) values ('R075', 'La précipitation', 'Q025');
-insert into Reponse (idr, rep, idq) values ('R076', '14.1°C', 'Q026');
-insert into Reponse (idr, rep, idq) values ('R077', '15.6°C', 'Q026');
-insert into Reponse (idr, rep, idq) values ('R078', '18.2°C', 'Q026');
-insert into Reponse (idr, rep, idq) values ('R079', 'La fonte des glaciers et des calottes glaciaires', 'Q027');
-insert into Reponse (idr, rep, idq) values ('R080', 'L''expansion thermique de l''eau de mer', 'Q027');
-insert into Reponse (idr, rep, idq) values ('R081', 'L''activité sismique', 'Q027');
-insert into Reponse (idr, rep, idq) values ('R082', 'Les activités humaines', 'Q028');
-insert into Reponse (idr, rep, idq) values ('R083', 'Les éruptions volcaniques', 'Q028');
-insert into Reponse (idr, rep, idq) values ('R084', 'Les mouvements tectoniques', 'Q028');
-insert into Reponse (idr, rep, idq) values ('R085', 'Le climat est à long terme et la météo est à court terme', 'Q029');
-insert into Reponse (idr, rep, idq) values ('R086', 'Le climat concerne la température et la météo concerne la précipitation', 'Q029');
-insert into Reponse (idr, rep, idq) values ('R087', 'Le climat est affecté par l''activité humaine et la météo ne l''est pas', 'Q029');
-insert into Reponse (idr, rep, idq) values ('R088', 'Elles contribuent à la régulation de la température de l''océan', 'Q030');
-insert into Reponse (idr, rep, idq) values ('R089', 'Elles perturbent le cycle de l''eau dans l''atmosphère', 'Q030');
-insert into Reponse (idr, rep, idq) values ('R090', 'Elles provoquent des variations de pression atmosphérique', 'Q030');
-insert into Reponse (idr, rep, idq) values ('R091', 'L''augmentation de la salinité de l''eau de mer', 'Q031');
-insert into Reponse (idr, rep, idq) values ('R092', 'La diminution du pH de l''eau de mer', 'Q031');
-insert into Reponse (idr, rep, idq) values ('R093', 'L''élévation de la température de l''eau de mer', 'Q031');
-insert into Reponse (idr, rep, idq) values ('R094', 'L''altitude', 'Q032');
-insert into Reponse (idr, rep, idq) values ('R095', 'La latitude', 'Q032');
-insert into Reponse (idr, rep, idq) values ('R096', 'La proximité de la mer', 'Q032');
-insert into Reponse (idr, rep, idq) values ('R097', 'Ils transportent des nutriments essentiels pour les écosystèmes marins', 'Q033');
-insert into Reponse (idr, rep, idq) values ('R098', 'Ils redistribuent la chaleur à travers les océans', 'Q033');
-insert into Reponse (idr, rep, idq) values ('R099', 'Ils augmentent la pression atmosphérique sur les côtes', 'Q033');
-insert into Reponse (idr, rep, idq) values ('R100', 'Une couche de gaz dans la haute atmosphère qui protège la Terre des rayons UV du soleil', 'Q034');
-insert into Reponse (idr, rep, idq) values ('R101', 'Une couche de nuages qui régule la température de la Terre', 'Q034');
-insert into Reponse (idr, rep, idq) values ('R102', 'Une couche de poussière qui réduit la visibilité dans l''atmosphère', 'Q034');
-insert into Reponse (idr, rep, idq) values ('R103', 'Il augmente la diversité des écosystèmes', 'Q035');
-insert into Reponse (idr, rep, idq) values ('R104', 'Il provoque l''extinction de nombreuses espèces animales et végétales', 'Q035');
-insert into Reponse (idr, rep, idq) values ('R105', 'Il favorise la migration des espèces vers des zones plus adaptées', 'Q035');
-insert into Reponse (idr, rep, idq) values ('R106', 'La capacité d''une surface à absorber la lumière du soleil', 'Q036');
-insert into Reponse (idr, rep, idq) values ('R107', 'La capacité d''une surface à stocker la chaleur', 'Q036');
-insert into Reponse (idr, rep, idq) values ('R108', 'La capacité d''une surface à réfléchir la lumière du soleil', 'Q036');
-insert into Reponse (idr, rep, idq) values ('R109', 'L''augmentation de la densité de l''air froid', 'Q037');
-insert into Reponse (idr, rep, idq) values ('R110', 'La diminution de la salinité de l''eau de me', 'Q037');
-insert into Reponse (idr, rep, idq) values ('R111', 'La fonte des glaciers et de la banquise', 'Q037');
-insert into Reponse (idr, rep, idq) values ('R112', 'La transformation d''une région aride en une région fertile', 'Q038');
-insert into Reponse (idr, rep, idq) values ('R113', 'La perte de végétation et la dégradation des sols dans les régions semi-arides', 'Q038');
-insert into Reponse (idr, rep, idq) values ('R114', 'L''expansion des déserts en dehors de leur zone d''origine', 'Q038');
-insert into Reponse (idr, rep, idq) values ('R115', 'Un phénomène météorologique qui provoque des tempêtes tropicales dans l''océan Atlantique', 'Q039');
-insert into Reponse (idr, rep, idq) values ('R116', 'Un phénomène météorologique qui provoque une élévation de la température de l''océan Pacifique', 'Q039');
-insert into Reponse (idr, rep, idq) values ('R117', 'Un phénomène météorologique qui provoque une diminution de la pression atmosphérique dans l''hémisphère sud', 'Q039');
-insert into Reponse (idr, rep, idq) values ('R118', 'La quantité totale de matière organique présente dans un écosystème', 'Q040');
-insert into Reponse (idr, rep, idq) values ('R119', 'La quantité d''eau stockée dans les organismes vivants', 'Q040');
-insert into Reponse (idr, rep, idq) values ('R120', 'La quantité de lumière solaire absorbée par les plantes', 'Q040');
-insert into Reponse (idr, rep, idq) values ('R121', 'Les États-Unis', 'Q041');
-insert into Reponse (idr, rep, idq) values ('R122', 'La Chine', 'Q041');
-insert into Reponse (idr, rep, idq) values ('R123', 'L''Union Européenne', 'Q041');
-insert into Reponse (idr, rep, idq) values ('R124', '93 millions de miles', 'Q042');
-insert into Reponse (idr, rep, idq) values ('R125', '93 millions de kilomètres', 'Q042');
-insert into Reponse (idr, rep, idq) values ('R126', '930 millions de kilomètres', 'Q042');
-insert into Reponse (idr, rep, idq) values ('R127', 'L''énergie solaire', 'Q043');
-insert into Reponse (idr, rep, idq) values ('R128', 'L''énergie éolienne', 'Q043');
-insert into Reponse (idr, rep, idq) values ('R129', 'L''énergie hydraulique', 'Q043');
-insert into Reponse (idr, rep, idq) values ('R130', 'Une mesure de la quantité de chaleur produite par une source d''énergie', 'Q044');
-insert into Reponse (idr, rep, idq) values ('R131', 'Une mesure de la température ressentie par le corps en raison de l''humidité', 'Q044');
-insert into Reponse (idr, rep, idq) values ('R132', 'Une mesure de la température de l''air dans un lieu donné', 'Q044');
-insert into Reponse (idr, rep, idq) values ('R133', 'Le glacier Lambert en Antarctique', 'Q045');
-insert into Reponse (idr, rep, idq) values ('R134', 'Le glacier Vatnajökull en Islande', 'Q045');
-insert into Reponse (idr, rep, idq) values ('R135', 'Le glacier Columbia en Colombie-Britannique, Canada', 'Q045');
-insert into Reponse (idr, rep, idq) values ('R136', 'Les engrais', 'Q046');
-insert into Reponse (idr, rep, idq) values ('R137', 'Le bétail', 'Q046');
-insert into Reponse (idr, rep, idq) values ('R138', 'Les machines agricoles', 'Q046');
-insert into Reponse (idr, rep, idq) values ('R139', '58 degrés Celsius (136,4 degrés Fahrenheit) en Libye en 1922', 'Q047');
-insert into Reponse (idr, rep, idq) values ('R140', '56,7 degrés Celsius (134 degrés Fahrenheit) en Californie en 1913', 'Q047');
-insert into Reponse (idr, rep, idq) values ('R141', '55 degrés Celsius (131 degrés Fahrenheit) en Australie en 1960', 'Q047');
-insert into Reponse (idr, rep, idq) values ('R142', 'Le désert du Sahara en Afrique du Nord', 'Q048');
-insert into Reponse (idr, rep, idq) values ('R143', 'Le désert du Kalahari en Afrique australe', 'Q048');
-insert into Reponse (idr, rep, idq) values ('R144', 'Le désert d''Arabie en Asie de l''Ouest', 'Q048');
-insert into Reponse (idr, rep, idq) values ('R145', 'Un courant d''air chaud qui se déplace dans l''atmosphère', 'Q049');
-insert into Reponse (idr, rep, idq) values ('R146', 'Un courant océanique chaud qui transporte de l''eau chaude de l''équateur vers les régions polaires', 'Q049');
-insert into Reponse (idr, rep, idq) values ('R147', 'Une région chaude de l''océan Atlantique où les ouragans se forment', 'Q049');
-insert into Reponse (idr, rep, idq) values ('R148', 'Le stockage du carbone dans l''atmosphère', 'Q050');
-insert into Reponse (idr, rep, idq) values ('R149', 'La transformation du carbone en un autre élément', 'Q050');
-insert into Reponse (idr, rep, idq) values ('R150', 'Le stockage du carbone dans des puits de carbone', 'Q050');
-insert into Reponse (idr, rep, idq) values ('R151', '50 ans	', 'Q51');
-insert into Reponse (idr, rep, idq) values ('R152', '100 ans', 'Q51');
-insert into Reponse (idr, rep, idq) values ('R153', '500 ans', 'Q51');
-insert into Reponse (idr, rep, idq) values ('R154', '10 ans', 'Q052');
-insert into Reponse (idr, rep, idq) values ('R155', '100 ans', 'Q052');
-insert into Reponse (idr, rep, idq) values ('R156', '1000 ans', 'Q052');
-insert into Reponse (idr, rep, idq) values ('R157', '2 jours', 'Q053');
-insert into Reponse (idr, rep, idq) values ('R158', '2 semaines', 'Q053');
-insert into Reponse (idr, rep, idq) values ('R159', '2 ans', 'Q053');
-insert into Reponse (idr, rep, idq) values ('R160', '5%', 'Q054');
-insert into Reponse (idr, rep, idq) values ('R161', '20%', 'Q054');
-insert into Reponse (idr, rep, idq) values ('R162', '50%', 'Q054');
-insert into Reponse (idr, rep, idq) values ('R163', 'Polypropylène', 'Q055');
-insert into Reponse (idr, rep, idq) values ('R164', 'Polyéthylène', 'Q055');
-insert into Reponse (idr, rep, idq) values ('R165', 'Polycarbonate', 'Q055');
-insert into Reponse (idr, rep, idq) values ('R166', '10 millions de tonnes', 'Q056');
-insert into Reponse (idr, rep, idq) values ('R167', '50 millions de tonnes', 'Q056');
-insert into Reponse (idr, rep, idq) values ('R168', '100 millions de tonnes', 'Q056');
-insert into Reponse (idr, rep, idq) values ('R169', 'Le méthane', 'Q057');
-insert into Reponse (idr, rep, idq) values ('R170', 'Le dioxyde de carbone', 'Q057');
-insert into Reponse (idr, rep, idq) values ('R171', 'L''oxyde d''azote', 'Q057');
-insert into Reponse (idr, rep, idq) values ('R172', 'Les déchets alimentaires', 'Q058');
-insert into Reponse (idr, rep, idq) values ('R173', 'Les déchets de jardin', 'Q058');
-insert into Reponse (idr, rep, idq) values ('R174', 'Les déchets de papier', 'Q058');
-insert into Reponse (idr, rep, idq) values ('R175', '1 million', 'Q059');
-insert into Reponse (idr, rep, idq) values ('R176', '10 millions', 'Q059');
-insert into Reponse (idr, rep, idq) values ('R177', '100 millions', 'Q059');
-insert into Reponse (idr, rep, idq) values ('R178', '10 millions de tonnes', 'Q060');
-insert into Reponse (idr, rep, idq) values ('R179', '50 millions de tonnes', 'Q060');
-insert into Reponse (idr, rep, idq) values ('R180', '100 millions de tonnes', 'Q060');
-insert into Reponse (idr, rep, idq) values ('R181', '50 ans', 'Q061');
-insert into Reponse (idr, rep, idq) values ('R182', '100 ans', 'Q061');
-insert into Reponse (idr, rep, idq) values ('R183', '500 ans', 'Q061');
-insert into Reponse (idr, rep, idq) values ('R184', '1 kg', 'Q062');
-insert into Reponse (idr, rep, idq) values ('R185', '5 kg', 'Q062');
-insert into Reponse (idr, rep, idq) values ('R186', '10 kg', 'Q062');
-insert into Reponse (idr, rep, idq) values ('R187', 'New York', 'Q063');
-insert into Reponse (idr, rep, idq) values ('R188', 'Los Angeles', 'Q063');
-insert into Reponse (idr, rep, idq) values ('R189', 'Chicago', 'Q063');
-insert into Reponse (idr, rep, idq) values ('R190', '5%', 'Q064');
-insert into Reponse (idr, rep, idq) values ('R191', '10%', 'Q064');
-insert into Reponse (idr, rep, idq) values ('R192', '25%', 'Q064');
-insert into Reponse (idr, rep, idq) values ('R193', '1 an', 'Q065');
-insert into Reponse (idr, rep, idq) values ('R194', '5 ans', 'Q065');
-insert into Reponse (idr, rep, idq) values ('R195', '10 ans', 'Q065');
-insert into Reponse (idr, rep, idq) values ('R196', '10%', 'Q066');
-insert into Reponse (idr, rep, idq) values ('R197', '25%', 'Q066');
-insert into Reponse (idr, rep, idq) values ('R198', '30%', 'Q066');
-insert into Reponse (idr, rep, idq) values ('R199', 'Les gobelets en plastique', 'Q067');
-insert into Reponse (idr, rep, idq) values ('R200', 'Les couverts en plastique', 'Q067');
-insert into Reponse (idr, rep, idq) values ('R201', 'Les pailles en plastique', 'Q067');
-insert into Reponse (idr, rep, idq) values ('R202', '100 ans', 'Q068');
-insert into Reponse (idr, rep, idq) values ('R203', '500 ans', 'Q068');
-insert into Reponse (idr, rep, idq) values ('R204', '1000 ans', 'Q068');
-insert into Reponse (idr, rep, idq) values ('R205', 'Les déchets de bois', 'Q069');
-insert into Reponse (idr, rep, idq) values ('R206', 'Les déchets de béton', 'Q069');
-insert into Reponse (idr, rep, idq) values ('R207', 'Les déchets de métal', 'Q069');
-insert into Reponse (idr, rep, idq) values ('R208', '25%', 'Q070');
-insert into Reponse (idr, rep, idq) values ('R209', '50%', 'Q070');
-insert into Reponse (idr, rep, idq) values ('R210', '75%', 'Q070');
-insert into Reponse (idr, rep, idq) values ('R211', 'San Francisco', 'Q071');
-insert into Reponse (idr, rep, idq) values ('R212', 'Seattle', 'Q071');
-insert into Reponse (idr, rep, idq) values ('R213', 'Portland', 'Q071');
-insert into Reponse (idr, rep, idq) values ('R214', '500 millions de tonnes', 'Q072');
-insert into Reponse (idr, rep, idq) values ('R215', '1 milliard de tonnes', 'Q072');
-insert into Reponse (idr, rep, idq) values ('R216', '2 milliards de tonnes', 'Q072');
-insert into Reponse (idr, rep, idq) values ('R217', 'Le verre borosilicate', 'Q073');
-insert into Reponse (idr, rep, idq) values ('R218', 'Le verre au plomb', 'Q073');
-insert into Reponse (idr, rep, idq) values ('R219', 'Le verre de silice', 'Q073');
-insert into Reponse (idr, rep, idq) values ('R220', 'Madrid', 'Q074');
-insert into Reponse (idr, rep, idq) values ('R221', 'Berlin', 'Q074');
-insert into Reponse (idr, rep, idq) values ('R222', 'Paris', 'Q074');
-insert into Reponse (idr, rep, idq) values ('R223', '10%', 'Q075');
-insert into Reponse (idr, rep, idq) values ('R224', '25%', 'Q075');
-insert into Reponse (idr, rep, idq) values ('R225', '50%', 'Q075');
-insert into Reponse (idr, rep, idq) values ('R226', 'La présence d''une espèce protégée dans une certaine zone', 'Q076');
-insert into Reponse (idr, rep, idq) values ('R227', 'Le nombre d''espèces de familles et de genres différents présents dans un biotope', 'Q076');
-insert into Reponse (idr, rep, idq) values ('R228', 'Le nombre d''individus présents dans un biotope', 'Q076');
-insert into Reponse (idr, rep, idq) values ('R229', 'L''hérisson', 'Q077');
-insert into Reponse (idr, rep, idq) values ('R230', 'Le castor', 'Q077');
-insert into Reponse (idr, rep, idq) values ('R231', 'Le lapin', 'Q077');
-insert into Reponse (idr, rep, idq) values ('R232', 'Uniquement le jour', 'Q078');
-insert into Reponse (idr, rep, idq) values ('R233', 'Uniquement la nuit', 'Q078');
-insert into Reponse (idr, rep, idq) values ('R234', 'Le jour et la nuit', 'Q078');
-insert into Reponse (idr, rep, idq) values ('R235', 'Produce du CO2', 'Q079');
-insert into Reponse (idr, rep, idq) values ('R236', 'Produce de l''O2', 'Q079');
-insert into Reponse (idr, rep, idq) values ('R237', 'Ne produce rien', 'Q079');
-insert into Reponse (idr, rep, idq) values ('R238', 'La plus petite unité de la vie', 'Q080');
-insert into Reponse (idr, rep, idq) values ('R239', 'La plus grande unité de la vie', 'Q080');
-insert into Reponse (idr, rep, idq) values ('R240', 'La plus complexe unité de la vie', 'Q080');
-insert into Reponse (idr, rep, idq) values ('R241', 'Une structure unique du corps humain', 'Q081');
-insert into Reponse (idr, rep, idq) values ('R242', 'Une collection de cellules du corps humain', 'Q081');
-insert into Reponse (idr, rep, idq) values ('R243', 'Une partie du système nerveux', 'Q081');
-insert into Reponse (idr, rep, idq) values ('R244', 'Stocke et transmet les informations génétiques', 'Q082');
-insert into Reponse (idr, rep, idq) values ('R245', 'Fabrique les protéines', 'Q082');
-insert into Reponse (idr, rep, idq) values ('R246', 'Transporte l''oxygène dans le corps', 'Q082');
-insert into Reponse (idr, rep, idq) values ('R247', 'Par fusion de plusieurs cellules', 'Q083');
-insert into Reponse (idr, rep, idq) values ('R248', 'Par division de cellules', 'Q083');
-insert into Reponse (idr, rep, idq) values ('R249', 'Par la croissance et la spécialisation des cellules', 'Q083');
-insert into Reponse (idr, rep, idq) values ('R250', 'Stockage de l''énergie', 'Q084');
-insert into Reponse (idr, rep, idq) values ('R251', 'Production d''énergie', 'Q084');
-insert into Reponse (idr, rep, idq) values ('R252', 'Transport de l''énergie', 'Q084');
-insert into Reponse (idr, rep, idq) values ('R253', 'Le processus par lequel les cellules produisent de l''énergie', 'Q085');
-insert into Reponse (idr, rep, idq) values ('R254', 'Le processus par lequel les cellules stockent de l''énergie', 'Q085');
-insert into Reponse (idr, rep, idq) values ('R255', 'Le processus par lequel les cellules utilisent de l''énergie', 'Q085');
-insert into Reponse (idr, rep, idq) values ('R256', 'La reproduction par division de cellules', 'Q086');
-insert into Reponse (idr, rep, idq) values ('R257', 'La reproduction par fusion de cellules', 'Q086');
-insert into Reponse (idr, rep, idq) values ('R258', 'La reproduction par fusion de gamètes', 'Q086');
-insert into Reponse (idr, rep, idq) values ('R259', 'La division cellulaire qui produit des cellules germinales', 'Q087');
-insert into Reponse (idr, rep, idq) values ('R260', 'La division cellulaire qui produit des cellules somatiques', 'Q087');
-insert into Reponse (idr, rep, idq) values ('R261', 'La division cellulaire qui produit des cellules souches', 'Q087');
-insert into Reponse (idr, rep, idq) values ('R262', 'Le processus par lequel les espèces changent au fil du temps', 'Q088');
-insert into Reponse (idr, rep, idq) values ('R263', 'Le processus par lequel les espèces restent inchangées au fil du temps', 'Q088');
-insert into Reponse (idr, rep, idq) values ('R264', 'Le processus par lequel les espèces se développent au fil du temps', 'Q088');
-insert into Reponse (idr, rep, idq) values ('R265', 'Un animal qui pond des œufs et a une peau sèche', 'Q089');
-insert into Reponse (idr, rep, idq) values ('R266', 'Un animal qui allaite ses petits et a une peau sèche', 'Q089');
-insert into Reponse (idr, rep, idq) values ('R267', 'Un animal qui a une peau humide et pond des œufs', 'Q089');
-insert into Reponse (idr, rep, idq) values ('R268', 'Le pancréas', 'Q090');
-insert into Reponse (idr, rep, idq) values ('R269', 'Le foie', 'Q090');
-insert into Reponse (idr, rep, idq) values ('R270', 'Les reins', 'Q090');
-insert into Reponse (idr, rep, idq) values ('R271', 'Le marteau (dans l''oreille)', 'Q091');
-insert into Reponse (idr, rep, idq) values ('R272', 'Le petit orteil', 'Q091');
-insert into Reponse (idr, rep, idq) values ('R273', 'La rotule', 'Q091');
-insert into Reponse (idr, rep, idq) values ('R274', 'Les racines', 'Q092');
-insert into Reponse (idr, rep, idq) values ('R275', 'Les feuilles', 'Q092');
-insert into Reponse (idr, rep, idq) values ('R276', 'Les fleurs', 'Q092');
-insert into Reponse (idr, rep, idq) values ('R277', 'Les reins', 'Q093');
-insert into Reponse (idr, rep, idq) values ('R278', 'Le foie', 'Q093');
-insert into Reponse (idr, rep, idq) values ('R279', 'Le cœur', 'Q093');
-insert into Reponse (idr, rep, idq) values ('R280', 'L''iris', 'Q094');
-insert into Reponse (idr, rep, idq) values ('R281', 'La cornée', 'Q094');
-insert into Reponse (idr, rep, idq) values ('R282', 'La sclérotique', 'Q094');
-insert into Reponse (idr, rep, idq) values ('R283', 'Transporter l''oxygène', 'Q095');
-insert into Reponse (idr, rep, idq) values ('R284', 'Combattre les infections', 'Q095');
-insert into Reponse (idr, rep, idq) values ('R285', 'Réguler la température corporelle', 'Q095');
-insert into Reponse (idr, rep, idq) values ('R286', 'Le foie', 'Q096');
-insert into Reponse (idr, rep, idq) values ('R287', 'Le pancréas', 'Q096');
-insert into Reponse (idr, rep, idq) values ('R288', 'Les reins', 'Q096');
-insert into Reponse (idr, rep, idq) values ('R289', 'La pepsine', 'Q097');
-insert into Reponse (idr, rep, idq) values ('R290', 'La lipase', 'Q097');
-insert into Reponse (idr, rep, idq) values ('R291', 'L''amylase', 'Q097');
-insert into Reponse (idr, rep, idq) values ('R292', 'Le scorbut', 'Q098');
-insert into Reponse (idr, rep, idq) values ('R293', 'Le rachitisme', 'Q098');
-insert into Reponse (idr, rep, idq) values ('R294', 'Le béribéri', 'Q098');
-insert into Reponse (idr, rep, idq) values ('R295', 'L''ATP', 'Q099');
-insert into Reponse (idr, rep, idq) values ('R296', 'L''ADP', 'Q099');
-insert into Reponse (idr, rep, idq) values ('R297', 'L''AMP', 'Q099');
-insert into Reponse (idr, rep, idq) values ('R298', 'La respiration cellulaire', 'Q100');
-insert into Reponse (idr, rep, idq) values ('R299', 'La fermentation', 'Q100');
-insert into Reponse (idr, rep, idq) values ('R300', 'La photosynthèse', 'Q100');
-insert into Reponse (idr, rep, idq) values ('R301', 'Les déchets provenant des bateaux de pêche', 'Q101');
-insert into Reponse (idr, rep, idq) values ('R302', 'Les déchets provenant des centrales électriques', 'Q101');
-insert into Reponse (idr, rep, idq) values ('R303', 'Les déchets provenant des rivières et des canaux d''écoulement', 'Q101');
-insert into Reponse (idr, rep, idq) values ('R304', 'Le polyéthylène', 'Q102');
-insert into Reponse (idr, rep, idq) values ('R305', 'Le polypropylène', 'Q102');
-insert into Reponse (idr, rep, idq) values ('R306', 'Le polychlorure de vinyle (PVC)', 'Q102');
-insert into Reponse (idr, rep, idq) values ('R307', 'Emballage alimentaire', 'Q103');
-insert into Reponse (idr, rep, idq) values ('R308', 'Construction de bâtiments', 'Q103');
-insert into Reponse (idr, rep, idq) values ('R309', 'Fabrication de jouets', 'Q103');
-insert into Reponse (idr, rep, idq) values ('R310', 'Plus de 50%', 'Q104');
-insert into Reponse (idr, rep, idq) values ('R311', 'Entre 25% et 50%', 'Q104');
-insert into Reponse (idr, rep, idq) values ('R312', 'Moins de 25%', 'Q104');
-insert into Reponse (idr, rep, idq) values ('R313', 'La mortalité des animaux marins', 'Q105');
-insert into Reponse (idr, rep, idq) values ('R314', 'La perturbation de l''écosystème marin', 'Q105');
-insert into Reponse (idr, rep, idq) values ('R315', 'Les deux réponses A et B', 'Q105');
-insert into Reponse (idr, rep, idq) values ('R316', 'La récupération et le recyclage des déchets plastiques', 'Q106');
-insert into Reponse (idr, rep, idq) values ('R317', 'La production de plastique biodégradable', 'Q106');
-insert into Reponse (idr, rep, idq) values ('R318', 'La réduction de la consommation de plastique à usage unique.', 'Q106');
-insert into Reponse (idr, rep, idq) values ('R319', 'Les véhicules à moteur', 'Q107');
-insert into Reponse (idr, rep, idq) values ('R320', 'Les usines', 'Q107');
-insert into Reponse (idr, rep, idq) values ('R321', 'Les parcs d''attractions', 'Q107');
-insert into Reponse (idr, rep, idq) values ('R322', 'Les voitures', 'Q108');
-insert into Reponse (idr, rep, idq) values ('R323', 'Les avions', 'Q108');
-insert into Reponse (idr, rep, idq) values ('R324', 'Les concerts de musique', 'Q108');
-insert into Reponse (idr, rep, idq) values ('R325', 'Les réverbères', 'Q109');
-insert into Reponse (idr, rep, idq) values ('R326', 'Les panneaux publicitaires', 'Q109');
-insert into Reponse (idr, rep, idq) values ('R327', 'Les étoiles', 'Q109');
-insert into Reponse (idr, rep, idq) values ('R328', 'Les déchets ménagers', 'Q110');
-insert into Reponse (idr, rep, idq) values ('R329', 'Les déchets industriels', 'Q110');
-insert into Reponse (idr, rep, idq) values ('R330', 'Les feux de forêt', 'Q110');
-insert into Reponse (idr, rep, idq) values ('R331', 'Les voitures', 'Q111');
-insert into Reponse (idr, rep, idq) values ('R332', 'Les bus', 'Q111');
-insert into Reponse (idr, rep, idq) values ('R333', 'Les avions', 'Q111');
-insert into Reponse (idr, rep, idq) values ('R334', 'Le dioxyde de carbone', 'Q112');
-insert into Reponse (idr, rep, idq) values ('R335', 'Le méthane', 'Q112');
-insert into Reponse (idr, rep, idq) values ('R336', 'Le protoxyde d''azote', 'Q112');
-insert into Reponse (idr, rep, idq) values ('R337', 'La voiture électrique', 'Q113');
-insert into Reponse (idr, rep, idq) values ('R338', 'Le train', 'Q113');
-insert into Reponse (idr, rep, idq) values ('R339', 'Le vélo', 'Q113');
-insert into Reponse (idr, rep, idq) values ('R340', 'Les avions', 'Q114');
-insert into Reponse (idr, rep, idq) values ('R341', 'Les voitures', 'Q114');
-insert into Reponse (idr, rep, idq) values ('R342', 'Les trains', 'Q114');
-insert into Reponse (idr, rep, idq) values ('R343', 'Les émissions de gaz d''échappement', 'Q115');
-insert into Reponse (idr, rep, idq) values ('R344', 'Le bruit des moteurs', 'Q115');
-insert into Reponse (idr, rep, idq) values ('R345', 'Les collisions', 'Q115');
-insert into Reponse (idr, rep, idq) values ('R346', 'Les sacs en papier', 'Q116');
-insert into Reponse (idr, rep, idq) values ('R347', 'Les sacs en tissu réutilisable', 'Q116');
-insert into Reponse (idr, rep, idq) values ('R348', 'Les sacs en plastique biodégradable', 'Q116');
-insert into Reponse (idr, rep, idq) values ('R349', 'Les gobelets en papier', 'Q117');
-insert into Reponse (idr, rep, idq) values ('R350', 'Les gobelets en verre réutilisable', 'Q117');
-insert into Reponse (idr, rep, idq) values ('R351', 'Les gobelets en plastique biodégradable', 'Q117');
-insert into Reponse (idr, rep, idq) values ('R352', 'Les bouteilles en verre réutilisable', 'Q118');
-insert into Reponse (idr, rep, idq) values ('R353', 'Les bouteilles en métal réutilisable', 'Q118');
-insert into Reponse (idr, rep, idq) values ('R354', 'Les bouteilles en plastique biodégradable', 'Q118');
-insert into Reponse (idr, rep, idq) values ('R355', 'La mise en place de taxes sur les carburants', 'Q119');
-insert into Reponse (idr, rep, idq) values ('R356', 'L''interdiction des véhicules à moteur', 'Q119');
-insert into Reponse (idr, rep, idq) values ('R357', 'L''augmentation des subventions pour l''achat de véhicules électriques', 'Q119');
-insert into Reponse (idr, rep, idq) values ('R358', 'La mise en place de zones de circulation restreinte', 'Q120');
-insert into Reponse (idr, rep, idq) values ('R359', 'L''interdiction de la vente de véhicules à moteur', 'Q120');
-insert into Reponse (idr, rep, idq) values ('R360', 'L''encouragement de l''utilisation des transports en commun', 'Q120');
-insert into Reponse (idr, rep, idq) values ('R361', 'L''augmentation de la température', 'Q121');
-insert into Reponse (idr, rep, idq) values ('R362', 'La perturbation de la reproduction des animaux', 'Q121');
-insert into Reponse (idr, rep, idq) values ('R363', 'La diminution de la qualité de l''observation des étoiles', 'Q121');
-insert into Reponse (idr, rep, idq) values ('R364', 'Les avions', 'Q122');
-insert into Reponse (idr, rep, idq) values ('R365', 'Les voitures', 'Q122');
-insert into Reponse (idr, rep, idq) values ('R366', 'Les usines', 'Q122');
-insert into Reponse (idr, rep, idq) values ('R367', 'La perte auditive', 'Q123');
-insert into Reponse (idr, rep, idq) values ('R368', 'Les troubles du sommeil', 'Q123');
-insert into Reponse (idr, rep, idq) values ('R369', 'Les deux réponses sont vraies', 'Q123');
-insert into Reponse (idr, rep, idq) values ('R370', 'Les déchets organiques', 'Q124');
-insert into Reponse (idr, rep, idq) values ('R371', 'Les pesticides', 'Q124');
-insert into Reponse (idr, rep, idq) values ('R372', 'Les déchets industriels', 'Q124');
-insert into Reponse (idr, rep, idq) values ('R373', 'La perte de la biodiversité', 'Q125');
-insert into Reponse (idr, rep, idq) values ('R374', 'Baisse de la température', 'Q125');
-insert into Reponse (idr, rep, idq) values ('R375', 'L''augmentation de la température', 'Q125');
-insert into Reponse (idr, rep, idq) values ('R376', 'Les rejets industriels', 'Q126');
-insert into Reponse (idr, rep, idq) values ('R378', 'Les pesticides utilisés dans l''agriculture', 'Q126');
-insert into Reponse (idr, rep, idq) values ('R379', 'La pluie acide', 'Q126');
-insert into Reponse (idr, rep, idq) values ('R380', 'Les déchets ménagers', 'Q127');
-insert into Reponse (idr, rep, idq) values ('R381', 'Les déchets industriels', 'Q127');
-insert into Reponse (idr, rep, idq) values ('R382', 'Les rejets de navires', 'Q127');
-insert into Reponse (idr, rep, idq) values ('R383', 'Les rivières', 'Q128');
-insert into Reponse (idr, rep, idq) values ('R384', 'Les lacs', 'Q128');
-insert into Reponse (idr, rep, idq) values ('R385', 'Les nappes phréatiques', 'Q128');
-insert into Reponse (idr, rep, idq) values ('R386', 'Les déchets organiques', 'Q129');
-insert into Reponse (idr, rep, idq) values ('R387', 'Les métaux lourds', 'Q129');
-insert into Reponse (idr, rep, idq) values ('R388', 'Les deux réponses sont vraies', 'Q129');
-insert into Reponse (idr, rep, idq) values ('R389', 'Moins de 5%', 'Q130');
-insert into Reponse (idr, rep, idq) values ('R390', 'Entre 10 et 20%', 'Q130');
-insert into Reponse (idr, rep, idq) values ('R391', 'Plus de 30%', 'Q130');
-insert into Reponse (idr, rep, idq) values ('R392', 'l''agriculture', 'Q131');
-insert into Reponse (idr, rep, idq) values ('R393', 'l''industrie', 'Q131');
-insert into Reponse (idr, rep, idq) values ('R394', 'les besoins domestiques', 'Q131');
-insert into Reponse (idr, rep, idq) values ('R395', 'La diminution des populations animales', 'Q132');
-insert into Reponse (idr, rep, idq) values ('R396', 'L''augmentation de la salinité de l''eau', 'Q132');
-insert into Reponse (idr, rep, idq) values ('R397', 'Les deux réponses sont vraies', 'Q132');
-insert into Reponse (idr, rep, idq) values ('R398', 'H2O2', 'Q133');
-insert into Reponse (idr, rep, idq) values ('R399', 'CO2', 'Q133');
-insert into Reponse (idr, rep, idq) values ('R400', 'H2O', 'Q133');
-insert into Reponse (idr, rep, idq) values ('R401', 'de neige fondue', 'Q134');
-insert into Reponse (idr, rep, idq) values ('R402', 'de roches', 'Q134');
-insert into Reponse (idr, rep, idq) values ('R403', 'de glace de mer', 'Q134');
-insert into Reponse (idr, rep, idq) values ('R404', '50%', 'Q135');
-insert into Reponse (idr, rep, idq) values ('R405', '75%', 'Q135');
-insert into Reponse (idr, rep, idq) values ('R406', '71%', 'Q135');
-insert into Reponse (idr, rep, idq) values ('R407', 'Non', 'Q136');
-insert into Reponse (idr, rep, idq) values ('R408', 'Seulement pour cuisiner', 'Q136');
-insert into Reponse (idr, rep, idq) values ('R409', 'Oui', 'Q136');
-insert into Reponse (idr, rep, idq) values ('R410', 'prés de 60%', 'Q137');
-insert into Reponse (idr, rep, idq) values ('R411', 'prés de 80%', 'Q137');
-insert into Reponse (idr, rep, idq) values ('R412', 'prés de 75%', 'Q137');
-insert into Reponse (idr, rep, idq) values ('R413', '10 jours', 'Q138');
-insert into Reponse (idr, rep, idq) values ('R414', '3 jours', 'Q138');
-insert into Reponse (idr, rep, idq) values ('R415', '7 jours', 'Q138');
-insert into Reponse (idr, rep, idq) values ('R416', '50 litres', 'Q139');
-insert into Reponse (idr, rep, idq) values ('R417', '100 litres', 'Q139');
-insert into Reponse (idr, rep, idq) values ('R418', '150 litres', 'Q139');
-insert into Reponse (idr, rep, idq) values ('R419', 'Les activités agricoles', 'Q140');
-insert into Reponse (idr, rep, idq) values ('R420', 'Les activités minières', 'Q140');
-insert into Reponse (idr, rep, idq) values ('R421', 'Les activités industrielles', 'Q140');
-insert into Reponse (idr, rep, idq) values ('R422', 'La couleur de l''eau', 'Q141');
-insert into Reponse (idr, rep, idq) values ('R423', 'L''odeur de l''eau', 'Q141');
-insert into Reponse (idr, rep, idq) values ('R424', 'Les concentrations de substances chimiques dans l''eau', 'Q141');
-insert into Reponse (idr, rep, idq) values ('R425', '50%', 'Q142');
-insert into Reponse (idr, rep, idq) values ('R426', '70%', 'Q142');
-insert into Reponse (idr, rep, idq) values ('R427', '30%', 'Q142');
-insert into Reponse (idr, rep, idq) values ('R428', 'Océan Arctique', 'Q143');
-insert into Reponse (idr, rep, idq) values ('R429', 'Océan Atlantique', 'Q143');
-insert into Reponse (idr, rep, idq) values ('R430', 'Océan Pacifique', 'Q143');
-insert into Reponse (idr, rep, idq) values ('R431', 'La migration', 'Q144');
-insert into Reponse (idr, rep, idq) values ('R432', 'La mortalité', 'Q144');
-insert into Reponse (idr, rep, idq) values ('R433', 'La modification du comportement', 'Q144');
-insert into Reponse (idr, rep, idq) values ('R434', 'La toilette', 'Q145');
-insert into Reponse (idr, rep, idq) values ('R435', 'La cuisine', 'Q145');
-insert into Reponse (idr, rep, idq) values ('R436', 'L''arrosage du jardin', 'Q145');
-insert into Reponse (idr, rep, idq) values ('R437', 'Le nombre de personnes vivant dans le foyer', 'Q146');
-insert into Reponse (idr, rep, idq) values ('R438', 'La région géographique', 'Q146');
-insert into Reponse (idr, rep, idq) values ('R439', 'Les habitudes de consommation d''eau de chaque personne', 'Q146');
-insert into Reponse (idr, rep, idq) values ('R440', '100 millions', 'Q147');
-insert into Reponse (idr, rep, idq) values ('R441', '500 millions', 'Q147');
-insert into Reponse (idr, rep, idq) values ('R442', '1 milliard', 'Q147');
-insert into Reponse (idr, rep, idq) values ('R443', 'La surconsommation', 'Q148');
-insert into Reponse (idr, rep, idq) values ('R444', 'La pollution', 'Q148');
-insert into Reponse (idr, rep, idq) values ('R445', 'Les variations climatiques', 'Q148');
-insert into Reponse (idr, rep, idq) values ('R446', 'Dans la forêt amazonienne', 'Q149');
-insert into Reponse (idr, rep, idq) values ('R447', 'Dans le désert de Atacama', 'Q149');
-insert into Reponse (idr, rep, idq) values ('R448', 'Dans les montagnes de l''Himalaya', 'Q149');
-insert into Reponse (idr, rep, idq) values ('R449', 'Blanc', 'Q150');
-insert into Reponse (idr, rep, idq) values ('R450', 'Bleu', 'Q150');
-insert into Reponse (idr, rep, idq) values ('R451', 'Vert', 'Q150');
-insert into Reponse (idr, rep, idq) values ('R452', 'Des biens produits par l''homme', 'Q151');
-insert into Reponse (idr, rep, idq) values ('R452', 'Des biens produits par la nature', 'Q151');
-insert into Reponse (idr, rep, idq) values ('R453', 'Des biens produits par les animaux', 'Q151');
-insert into Reponse (idr, rep, idq) values ('R454', 'L''eau', 'Q152');
-insert into Reponse (idr, rep, idq) values ('R455', 'Le soleil', 'Q152');
-insert into Reponse (idr, rep, idq) values ('R456', 'Le charbon', 'Q152');
-insert into Reponse (idr, rep, idq) values ('R457', 'Les minéraux', 'Q153');
-insert into Reponse (idr, rep, idq) values ('R458', 'Les végétaux', 'Q153');
-insert into Reponse (idr, rep, idq) values ('R459', 'L''eau', 'Q153');
-insert into Reponse (idr, rep, idq) values ('R460', 'Le vent', 'Q154');
-insert into Reponse (idr, rep, idq) values ('R461', 'Le charbon', 'Q154');
-insert into Reponse (idr, rep, idq) values ('R462', 'Le pétrole', 'Q154');
-insert into Reponse (idr, rep, idq) values ('R463', 'Le fer', 'Q155');
-insert into Reponse (idr, rep, idq) values ('R464', 'Le cuivre', 'Q155');
-insert into Reponse (idr, rep, idq) values ('R465', 'L''aluminium', 'Q155');
-insert into Reponse (idr, rep, idq) values ('R466', 'Le méthane', 'Q156');
-insert into Reponse (idr, rep, idq) values ('R467', 'Le dioxyde de carbone', 'Q156');
-insert into Reponse (idr, rep, idq) values ('R468', 'L''ozone', 'Q156');
-insert into Reponse (idr, rep, idq) values ('R469', 'Le diamant', 'Q157');
-insert into Reponse (idr, rep, idq) values ('R470', 'Le platine', 'Q157');
-insert into Reponse (idr, rep, idq) values ('R471', 'L''or', 'Q157');
-insert into Reponse (idr, rep, idq) values ('R472', 'Eolienne', 'Q158');
-insert into Reponse (idr, rep, idq) values ('R473', 'Hydroélectrique', 'Q158');
-insert into Reponse (idr, rep, idq) values ('R474', 'Solaire', 'Q158');
-insert into Reponse (idr, rep, idq) values ('R475', 'Production d''électricité', 'Q159');
-insert into Reponse (idr, rep, idq) values ('R476', 'Chauffage des maisons', 'Q159');
-insert into Reponse (idr, rep, idq) values ('R477', 'Traction animale', 'Q159');
-insert into Reponse (idr, rep, idq) values ('R478', 'Plastique', 'Q160');
-insert into Reponse (idr, rep, idq) values ('R479', 'Biocarburant', 'Q160');
-insert into Reponse (idr, rep, idq) values ('R480', 'Métal', 'Q160');
-insert into Reponse (idr, rep, idq) values ('R481', 'Gaz naturel', 'Q161');
-insert into Reponse (idr, rep, idq) values ('R482', 'Charbon', 'Q161');
-insert into Reponse (idr, rep, idq) values ('R483', 'Eolienne', 'Q161');
-insert into Reponse (idr, rep, idq) values ('R484', 'Photovoltaïque', 'Q162');
-insert into Reponse (idr, rep, idq) values ('R485', 'Hydroélectrique', 'Q162');
-insert into Reponse (idr, rep, idq) values ('R486', 'Eolienne', 'Q162');
-insert into Reponse (idr, rep, idq) values ('R487', 'Épuisement rapide', 'Q163');
-insert into Reponse (idr, rep, idq) values ('R488', 'Durabilité', 'Q163');
-insert into Reponse (idr, rep, idq) values ('R489', 'Coût élevé', 'Q163');
-insert into Reponse (idr, rep, idq) values ('R490', 'États-Unis', 'Q164');
-insert into Reponse (idr, rep, idq) values ('R491', 'Allemagne', 'Q164');
-insert into Reponse (idr, rep, idq) values ('R492', 'Chine', 'Q164');
-insert into Reponse (idr, rep, idq) values ('R493', 'Alimentation', 'Q165');
-insert into Reponse (idr, rep, idq) values ('R494', 'Construction', 'Q165');
-insert into Reponse (idr, rep, idq) values ('R495', 'Médecine', 'Q165');
-insert into Reponse (idr, rep, idq) values ('R496', 'Des minéraux', 'Q166');
-insert into Reponse (idr, rep, idq) values ('R497', 'Des débris végétaux et animaux accumulés', 'Q166');
-insert into Reponse (idr, rep, idq) values ('R498', 'Du sable', 'Q166');
-insert into Reponse (idr, rep, idq) values ('R499', 'Du gaz naturel', 'Q167');
-insert into Reponse (idr, rep, idq) values ('R500', 'De l''essence et du diesel', 'Q167');
-insert into Reponse (idr, rep, idq) values ('R501', 'De la vapeur d''eau', 'Q167');
-insert into Reponse (idr, rep, idq) values ('R502', 'Par la décomposition de la matière végétale', 'Q169');
-insert into Reponse (idr, rep, idq) values ('R503', 'Par la décomposition de la matière animale', 'Q169');
-insert into Reponse (idr, rep, idq) values ('R504', 'Par la décomposition de la matière organique sédimentaire', 'Q169');
-insert into Reponse (idr, rep, idq) values ('R505', 'En Asie', 'Q169');
-insert into Reponse (idr, rep, idq) values ('R506', 'En Amérique du Nord', 'Q169');
-insert into Reponse (idr, rep, idq) values ('R507', 'En Europe', 'Q169');
-insert into Reponse (idr, rep, idq) values ('R508', 'Entre 5 et 10 ans', 'Q170');
-insert into Reponse (idr, rep, idq) values ('R509', 'Entre 20 et 25 ans', 'Q170');
-insert into Reponse (idr, rep, idq) values ('R510', 'Entre 30 et 40 ans', 'Q170');
-insert into Reponse (idr, rep, idq) values ('R511', 'En creusant des puits', 'Q171');
-insert into Reponse (idr, rep, idq) values ('R512', 'En creusant des mines à ciel ouvert', 'Q171');
-insert into Reponse (idr, rep, idq) values ('R513', 'En utilisant des forages directionnels', 'Q171');
-insert into Reponse (idr, rep, idq) values ('R514', 'En utilisant la chaleur produite par la Terre', 'Q172');
-insert into Reponse (idr, rep, idq) values ('R515', 'En utilisant la force des marées', 'Q172');
-insert into Reponse (idr, rep, idq) values ('R516', 'En utilisant la force des vagues', 'Q172');
-insert into Reponse (idr, rep, idq) values ('R517', 'En mer', 'Q173');
-insert into Reponse (idr, rep, idq) values ('R518', 'En montagne', 'Q173');
-insert into Reponse (idr, rep, idq) values ('R519', 'En zone volcanique', 'Q173');
-insert into Reponse (idr, rep, idq) values ('R520', 'Russie', 'Q174');
-insert into Reponse (idr, rep, idq) values ('R521', 'Etats Unis', 'Q174');
-insert into Reponse (idr, rep, idq) values ('R522', 'Arabie Saoudite', 'Q174');
-insert into Reponse (idr, rep, idq) values ('R523', 'Silicium', 'Q175');
-insert into Reponse (idr, rep, idq) values ('R524', 'Cuivre', 'Q175');
-insert into Reponse (idr, rep, idq) values ('R525', 'Aluminium', 'Q175');
-insert into Reponse (idr, rep, idq) values ('R526', 'Le magma atteint la surface de la Terre', 'Q176');
-insert into Reponse (idr, rep, idq) values ('R527', 'Tremblements de terre', 'Q176');
-insert into Reponse (idr, rep, idq) values ('R528', 'L''impact d''un météore', 'Q176');
-insert into Reponse (idr, rep, idq) values ('R529', 'Le mont Vésuve ', 'Q177');
-insert into Reponse (idr, rep, idq) values ('R530', 'Le Mauna Loa', 'Q177');
-insert into Reponse (idr, rep, idq) values ('R531', 'Le Mont Fuji', 'Q177');
-insert into Reponse (idr, rep, idq) values ('R532', 'Épicentre', 'Q178');
-insert into Reponse (idr, rep, idq) values ('R533', 'Centre sismique', 'Q178');
-insert into Reponse (idr, rep, idq) values ('R534', 'Hypocentre', 'Q178');
-insert into Reponse (idr, rep, idq) values ('R535', 'Échelle de Mercalli', 'Q179');
-insert into Reponse (idr, rep, idq) values ('R536', 'Échelle sismique', 'Q179');
-insert into Reponse (idr, rep, idq) values ('R537', 'L''échelle de Richter', 'Q179');
-insert into Reponse (idr, rep, idq) values ('R538', 'La tectonique des plaques', 'Q180');
-insert into Reponse (idr, rep, idq) values ('R539', 'L''activité sismique', 'Q180');
-insert into Reponse (idr, rep, idq) values ('R540', 'Mouvement de la Terre', 'Q180');
-insert into Reponse (idr, rep, idq) values ('R541', 'Mexique', 'Q181');
-insert into Reponse (idr, rep, idq) values ('R542', 'Japon', 'Q181');
-insert into Reponse (idr, rep, idq) values ('R543', 'Italie', 'Q181');
-insert into Reponse (idr, rep, idq) values ('R544', 'Eruption volcanique', 'Q182');
-insert into Reponse (idr, rep, idq) values ('R545', 'Tsunami', 'Q182');
-insert into Reponse (idr, rep, idq) values ('R546', 'Les deux', 'Q182');
-insert into Reponse (idr, rep, idq) values ('R547', 'Les tremblements de terre sous-marins', 'Q183');
-insert into Reponse (idr, rep, idq) values ('R548', 'Les éruptions volcaniques', 'Q183');
-insert into Reponse (idr, rep, idq) values ('R549', 'Les deux', 'Q183');
-insert into Reponse (idr, rep, idq) values ('R550', '10 km ', 'Q184');
-insert into Reponse (idr, rep, idq) values ('R551', '100 km ', 'Q184');
-insert into Reponse (idr, rep, idq) values ('R552', 'plus de 100 km', 'Q184');
-insert into Reponse (idr, rep, idq) values ('R553', 'L''océan Atlantique', 'Q185');
-insert into Reponse (idr, rep, idq) values ('R554', 'L''océan Pacifique', 'Q185');
-insert into Reponse (idr, rep, idq) values ('R555', 'L''océan Indien', 'Q185');
-insert into Reponse (idr, rep, idq) values ('R556', 'Aride', 'Q186');
-insert into Reponse (idr, rep, idq) values ('R557', 'Désert', 'Q186');
-insert into Reponse (idr, rep, idq) values ('R558', 'Humide', 'Q186');
-insert into Reponse (idr, rep, idq) values ('R559', 'La haute pression', 'Q187');
-insert into Reponse (idr, rep, idq) values ('R560', 'L''altitude élevée', 'Q187');
-insert into Reponse (idr, rep, idq) values ('R561', 'Le manque de précipitations', 'Q187');
-insert into Reponse (idr, rep, idq) values ('R562', 'Le désert d''Atacama en Amérique du Sud', 'Q188');
-insert into Reponse (idr, rep, idq) values ('R563', 'Le désert du Sahara en Afrique', 'Q188');
-insert into Reponse (idr, rep, idq) values ('R564', 'Le désert du Kalahari en Afrique', 'Q188');
-insert into Reponse (idr, rep, idq) values ('R565', 'Un type de tempête avec des vents forts et de fortes pluies', 'Q189');
-insert into Reponse (idr, rep, idq) values ('R566', 'Une vague océanique géante causée par un tremblement de terre, une éruption volcanique ou un glissement de terrain sous-marin.', 'Q189');
-insert into Reponse (idr, rep, idq) values ('R567', 'Un type de requin que l''on trouve dans l''océan Pacifique.', 'Q189');
-insert into Reponse (idr, rep, idq) values ('R568', 'Un type de tempête', 'Q190');
-insert into Reponse (idr, rep, idq) values ('R569', 'Une période de chaleur excessive', 'Q190');
-insert into Reponse (idr, rep, idq) values ('R570', 'Une maladie tropicale', 'Q190');
-insert into Reponse (idr, rep, idq) values ('R571', 'Les tornades', 'Q191');
-insert into Reponse (idr, rep, idq) values ('R572', 'Les ouragans', 'Q191');
-insert into Reponse (idr, rep, idq) values ('R573', 'Les tremblements de terre', 'Q191');
-insert into Reponse (idr, rep, idq) values ('R574', 'Les tremblements de terre', 'Q192');
-insert into Reponse (idr, rep, idq) values ('R575', 'Les ouragans', 'Q192');
-insert into Reponse (idr, rep, idq) values ('R576', 'Les orages violents', 'Q192');
-insert into Reponse (idr, rep, idq) values ('R577', 'Une augmentation de l''activité sismique', 'Q193');
-insert into Reponse (idr, rep, idq) values ('R578', 'Ciel dégagé et vents calmes', 'Q193');
-insert into Reponse (idr, rep, idq) values ('R579', 'Diminution des émissions de gaz', 'Q193');
-insert into Reponse (idr, rep, idq) values ('R580', 'La foudre', 'Q194');
-insert into Reponse (idr, rep, idq) values ('R581', 'L''activité humaine', 'Q194');
-insert into Reponse (idr, rep, idq) values ('R582', 'Les éruptions volcaniques', 'Q194');
-insert into Reponse (idr, rep, idq) values ('R583', 'Les ouragans se produisent dans l''océan Atlantique, tandis que les typhons se produisent dans l''océan Pacifique.', 'Q195');
-insert into Reponse (idr, rep, idq) values ('R584', 'Les ouragans ont une vitesse de vent plus faible que les typhons.', 'Q195');
-insert into Reponse (idr, rep, idq) values ('R585', 'Il n''y a pas de différence, il s''agit du même type de tempête.', 'Q195');
-insert into Reponse (idr, rep, idq) values ('R586', 'Stromboliene', 'Q196');
-insert into Reponse (idr, rep, idq) values ('R587', 'Pliniene', 'Q196');
-insert into Reponse (idr, rep, idq) values ('R588', 'Vulcaniene', 'Q196');
-insert into Reponse (idr, rep, idq) values ('R589', 'Un ciel clair et des vents calmes', 'Q197');
-insert into Reponse (idr, rep, idq) values ('R590', 'Des pluies abondantes', 'Q197');
-insert into Reponse (idr, rep, idq) values ('R590', 'Un fort grondement', 'Q197');
-insert into Reponse (idr, rep, idq) values ('R592', 'Oasis', 'Q198');
-insert into Reponse (idr, rep, idq) values ('R593', 'Toundra', 'Q198');
-insert into Reponse (idr, rep, idq) values ('R594', 'Désert', 'Q198');
-insert into Reponse (idr, rep, idq) values ('R595', 'Typhon', 'Q199');
-insert into Reponse (idr, rep, idq) values ('R596', 'Tornade', 'Q199');
-insert into Reponse (idr, rep, idq) values ('R597', 'Cyclone', 'Q199');
-insert into Reponse (idr, rep, idq) values ('R598', 'Un tremblement de terre', 'Q200');
-insert into Reponse (idr, rep, idq) values ('R599', 'Éruption volcanique', 'Q200');
-insert into Reponse (idr, rep, idq) values ('R600', 'Tsunami', 'Q200');
+insert into Reponse values 
+('R001', 'Quelques années', 'Q001'),
+('R002', 'Des décennies', 'Q001'),
+('R003', 'Des siècles', 'Q001'),
+('R004', 'La stratosphère', 'Q002'),
+('R005', 'L''ionosphère', 'Q002'),
+('R006', 'L''atmosphère', 'Q002'),
+('R007', 'La stratosphère', 'Q003'),
+('R008', 'La mésosphère', 'Q003'),
+('R009', 'La troposphère', 'Q003'),
+('R010', 'L''oxygène', 'Q004'),
+('R011', 'L''azote', 'Q004'),
+('R012', 'Le dioxyde de carbone', 'Q004'),
+('R013', 'Une dépression', 'Q005'),
+('R014', 'Un anticyclone', 'Q005'),
+('R015', 'Une frontière', 'Q005'),
+('R016', '2 500 mètres', 'Q006'),
+('R017', '3 500 mètres', 'Q006'),
+('R018', '5 000 mètres', 'Q006'),
+('R019', 'Noir', 'Q007'),
+('R020', 'Bleu', 'Q007'),
+('R021', 'Gris', 'Q007'),
+('R022', '1 minute', 'Q008'),
+('R023', '5 minutes', 'Q008'),
+('R024', '10 minutes', 'Q008'),
+('R025', 'Paris', 'Q009'),
+('R026', 'Londres', 'Q009'),
+('R027', 'New York', 'Q009'),
+('R028', 'Le méthane', 'Q010'),
+('R029', 'Le dioxyde de carbone', 'Q010'),
+('R030', 'L''ozone', 'Q010'),
+('R031', '500 km/h', 'Q011'),
+('R032', '800 km/h', 'Q011'),
+('R033', '1 000 km/h', 'Q011'),
+('R034', 'Un baromètre', 'Q012'),
+('R035', 'Un thermomètre', 'Q012'),
+('R036', 'Un hygromètre', 'Q012'),
+('R037', 'La stratosphère', 'Q013'),
+('R038', 'La mésosphère', 'Q013'),
+('R039', 'La troposphère', 'Q013'),
+('R040', 'Un anémomètre', 'Q014'),
+('R041', 'Un baromètre', 'Q014'),
+('R042', 'Un thermomètre', 'Q014'),
+('R043', '299 792 km/s', 'Q015'),
+('R044', '299 792 458 m/s', 'Q015'),
+('R045', '299 792 458 km/s', 'Q015'),
+('R046', '0 degré Celsius', 'Q016'),
+('R047', '32 degrés Fahrenheit', 'Q016'),
+('R048', 'Les deux', 'Q016'),
+('R049', 'Dans la troposphère', 'Q017'),
+('R050', 'Dans la stratosphère', 'Q017'),
+('R051', 'Dans la mésosphère', 'Q017'),
+('R052', 'Un hygromètre', 'Q018'),
+('R053', 'Un baromètre', 'Q018'),
+('R054', 'Un thermomètre', 'Q018'),
+('R055', 'La troposphère', 'Q019'),
+('R056', 'La mésosphère', 'Q019'),
+('R057', 'L''ionosphère', 'Q019'),
+('R058', '400 km', 'Q020'),
+('R059', '500 km', 'Q020'),
+('R060', '600 km', 'Q020'),
+('R061', 'La convection', 'Q021'),
+('R062', 'La radiation', 'Q021'),
+('R063', 'La conduction', 'Q021'),
+('R064', 'Une tempête', 'Q022'),
+('R065', 'Un orage', 'Q022'),
+('R066', 'Une dépression', 'Q022'),
+('R067', 'Un anémomètre', 'Q023'),
+('R068', 'Un baromètre', 'Q023'),
+('R069', 'Un détecteur de particules fines', 'Q023'),
+('R070', '1 013 hPa', 'Q024'),
+('R071', '101,3 kPa', 'Q024'),
+('R072', 'Les deux', 'Q024'),
+('R073', 'L''évaporation', 'Q025'),
+('R074', 'La condensation', 'Q025'),
+('R075', 'La précipitation', 'Q025'),
+('R076', '14.1°C', 'Q026'),
+('R077', '15.6°C', 'Q026'),
+('R078', '18.2°C', 'Q026'),
+('R079', 'La fonte des glaciers et des calottes glaciaires', 'Q027'),
+('R080', 'L''expansion thermique de l''eau de mer', 'Q027'),
+('R081', 'L''activité sismique', 'Q027'),
+('R082', 'Les activités humaines', 'Q028'),
+('R083', 'Les éruptions volcaniques', 'Q028'),
+('R084', 'Les mouvements tectoniques', 'Q028'),
+('R085', 'Le climat est à long terme et la météo est à court terme', 'Q029'),
+('R086', 'Le climat concerne la température et la météo concerne la précipitation', 'Q029'),
+('R087', 'Le climat est affecté par l''activité humaine et la météo ne l''est pas', 'Q029'),
+('R088', 'Elles contribuent à la régulation de la température de l''océan', 'Q030'),
+('R089', 'Elles perturbent le cycle de l''eau dans l''atmosphère', 'Q030'),
+('R090', 'Elles provoquent des variations de pression atmosphérique', 'Q030'),
+('R091', 'L''augmentation de la salinité de l''eau de mer', 'Q031'),
+('R092', 'La diminution du pH de l''eau de mer', 'Q031'),
+('R093', 'L''élévation de la température de l''eau de mer', 'Q031'),
+('R094', 'L''altitude', 'Q032'),
+('R095', 'La latitude', 'Q032'),
+('R096', 'La proximité de la mer', 'Q032'),
+('R097', 'Ils transportent des nutriments essentiels pour les écosystèmes marins', 'Q033'),
+('R098', 'Ils redistribuent la chaleur à travers les océans', 'Q033'),
+('R099', 'Ils augmentent la pression atmosphérique sur les côtes', 'Q033'),
+('R100', 'Une couche de gaz dans la haute atmosphère qui protège la Terre des rayons UV du soleil', 'Q034'),
+('R101', 'Une couche de nuages qui régule la température de la Terre', 'Q034'),
+('R102', 'Une couche de poussière qui réduit la visibilité dans l''atmosphère', 'Q034'),
+('R103', 'Il augmente la diversité des écosystèmes', 'Q035'),
+('R104', 'Il provoque l''extinction de nombreuses espèces animales et végétales', 'Q035'),
+('R105', 'Il favorise la migration des espèces vers des zones plus adaptées', 'Q035'),
+('R106', 'La capacité d''une surface à absorber la lumière du soleil', 'Q036'),
+('R107', 'La capacité d''une surface à stocker la chaleur', 'Q036'),
+('R108', 'La capacité d''une surface à réfléchir la lumière du soleil', 'Q036'),
+('R109', 'L''augmentation de la densité de l''air froid', 'Q037'),
+('R110', 'La diminution de la salinité de l''eau de me', 'Q037'),
+('R111', 'La fonte des glaciers et de la banquise', 'Q037'),
+('R112', 'La transformation d''une région aride en une région fertile', 'Q038'),
+('R113', 'La perte de végétation et la dégradation des sols dans les régions semi-arides', 'Q038'),
+('R114', 'L''expansion des déserts en dehors de leur zone d''origine', 'Q038'),
+('R115', 'Un phénomène météorologique qui provoque des tempêtes tropicales dans l''océan Atlantique', 'Q039'),
+('R116', 'Un phénomène météorologique qui provoque une élévation de la température de l''océan Pacifique', 'Q039'),
+('R117', 'Un phénomène météorologique qui provoque une diminution de la pression atmosphérique dans l''hémisphère sud', 'Q039'),
+('R118', 'La quantité totale de matière organique présente dans un écosystème', 'Q040'),
+('R119', 'La quantité d''eau stockée dans les organismes vivants', 'Q040'),
+('R120', 'La quantité de lumière solaire absorbée par les plantes', 'Q040'),
+('R121', 'Les États-Unis', 'Q041'),
+('R122', 'La Chine', 'Q041'),
+('R123', 'L''Union Européenne', 'Q041'),
+('R124', '93 millions de miles', 'Q042'),
+('R125', '93 millions de kilomètres', 'Q042'),
+('R126', '930 millions de kilomètres', 'Q042'),
+('R127', 'L''énergie solaire', 'Q043'),
+('R128', 'L''énergie éolienne', 'Q043'),
+('R129', 'L''énergie hydraulique', 'Q043'),
+('R130', 'Une mesure de la quantité de chaleur produite par une source d''énergie', 'Q044'),
+('R131', 'Une mesure de la température ressentie par le corps en raison de l''humidité', 'Q044'),
+('R132', 'Une mesure de la température de l''air dans un lieu donné', 'Q044'),
+('R133', 'Le glacier Lambert en Antarctique', 'Q045'),
+('R134', 'Le glacier Vatnajökull en Islande', 'Q045'),
+('R135', 'Le glacier Columbia en Colombie-Britannique, Canada', 'Q045'),
+('R136', 'Les engrais', 'Q046'),
+('R137', 'Le bétail', 'Q046'),
+('R138', 'Les machines agricoles', 'Q046'),
+('R139', '58 degrés Celsius (136,4 degrés Fahrenheit) en Libye en 1922', 'Q047'),
+('R140', '56,7 degrés Celsius (134 degrés Fahrenheit) en Californie en 1913', 'Q047'),
+('R141', '55 degrés Celsius (131 degrés Fahrenheit) en Australie en 1960', 'Q047'),
+('R142', 'Le désert du Sahara en Afrique du Nord', 'Q048'),
+('R143', 'Le désert du Kalahari en Afrique australe', 'Q048'),
+('R144', 'Le désert d''Arabie en Asie de l''Ouest', 'Q048'),
+('R145', 'Un courant d''air chaud qui se déplace dans l''atmosphère', 'Q049'),
+('R146', 'Un courant océanique chaud qui transporte de l''eau chaude de l''équateur vers les régions polaires', 'Q049'),
+('R147', 'Une région chaude de l''océan Atlantique où les ouragans se forment', 'Q049'),
+('R148', 'Le stockage du carbone dans l''atmosphère', 'Q050'),
+('R149', 'La transformation du carbone en un autre élément', 'Q050'),
+('R150', 'Le stockage du carbone dans des puits de carbone', 'Q050'),
+('R151', '50 ans	', 'Q051'),
+('R152', '100 ans', 'Q051'),
+('R153', '500 ans', 'Q051'),
+('R154', '10 ans', 'Q052'),
+('R155', '100 ans', 'Q052'),
+('R156', '1000 ans', 'Q052'),
+('R157', '2 jours', 'Q053'),
+('R158', '2 semaines', 'Q053'),
+('R159', '2 ans', 'Q053'),
+('R160', '5%', 'Q054'),
+('R161', '20%', 'Q054'),
+('R162', '50%', 'Q054'),
+('R163', 'Polypropylène', 'Q055'),
+('R164', 'Polyéthylène', 'Q055'),
+('R165', 'Polycarbonate', 'Q055'),
+('R166', '10 millions de tonnes', 'Q056'),
+('R167', '50 millions de tonnes', 'Q056'),
+('R168', '100 millions de tonnes', 'Q056'),
+('R169', 'Le méthane', 'Q057'),
+('R170', 'Le dioxyde de carbone', 'Q057'),
+('R171', 'L''oxyde d''azote', 'Q057'),
+('R172', 'Les déchets alimentaires', 'Q058'),
+('R173', 'Les déchets de jardin', 'Q058'),
+('R174', 'Les déchets de papier', 'Q058'),
+('R175', '1 million', 'Q059'),
+('R176', '10 millions', 'Q059'),
+('R177', '100 millions', 'Q059'),
+('R178', '10 millions de tonnes', 'Q060'),
+('R179', '50 millions de tonnes', 'Q060'),
+('R180', '100 millions de tonnes', 'Q060'),
+('R181', '50 ans', 'Q061'),
+('R182', '100 ans', 'Q061'),
+('R183', '500 ans', 'Q061'),
+('R184', '1 kg', 'Q062'),
+('R185', '5 kg', 'Q062'),
+('R186', '10 kg', 'Q062'),
+('R187', 'New York', 'Q063'),
+('R188', 'Los Angeles', 'Q063'),
+('R189', 'Chicago', 'Q063'),
+('R190', '5%', 'Q064'),
+('R191', '10%', 'Q064'),
+('R192', '25%', 'Q064'),
+('R193', '1 an', 'Q065'),
+('R194', '5 ans', 'Q065'),
+('R195', '10 ans', 'Q065'),
+('R196', '10%', 'Q066'),
+('R197', '25%', 'Q066'),
+('R198', '30%', 'Q066'),
+('R199', 'Les gobelets en plastique', 'Q067'),
+('R200', 'Les couverts en plastique', 'Q067'),
+('R201', 'Les pailles en plastique', 'Q067'),
+('R202', '100 ans', 'Q068'),
+('R203', '500 ans', 'Q068'),
+('R204', '1000 ans', 'Q068'),
+('R205', 'Les déchets de bois', 'Q069'),
+('R206', 'Les déchets de béton', 'Q069'),
+('R207', 'Les déchets de métal', 'Q069'),
+('R208', '25%', 'Q070'),
+('R209', '50%', 'Q070'),
+('R210', '75%', 'Q070'),
+('R211', 'San Francisco', 'Q071'),
+('R212', 'Seattle', 'Q071'),
+('R213', 'Portland', 'Q071'),
+('R214', '500 millions de tonnes', 'Q072'),
+('R215', '1 milliard de tonnes', 'Q072'),
+('R216', '2 milliards de tonnes', 'Q072'),
+('R217', 'Le verre borosilicate', 'Q073'),
+('R218', 'Le verre au plomb', 'Q073'),
+('R219', 'Le verre de silice', 'Q073'),
+('R220', 'Madrid', 'Q074'),
+('R221', 'Berlin', 'Q074'),
+('R222', 'Paris', 'Q074'),
+('R223', '10%', 'Q075'),
+('R224', '25%', 'Q075'),
+('R225', '50%', 'Q075'),
+('R226', 'La présence d''une espèce protégée dans une certaine zone', 'Q076'),
+('R227', 'Le nombre d''espèces de familles et de genres différents présents dans un biotope', 'Q076'),
+('R228', 'Le nombre d''individus présents dans un biotope', 'Q076'),
+('R229', 'L''hérisson', 'Q077'),
+('R230', 'Le castor', 'Q077'),
+('R231', 'Le lapin', 'Q077'),
+('R232', 'Uniquement le jour', 'Q078'),
+('R233', 'Uniquement la nuit', 'Q078'),
+('R234', 'Le jour et la nuit', 'Q078'),
+('R235', 'Produce du CO2', 'Q079'),
+('R236', 'Produce de l''O2', 'Q079'),
+('R237', 'Ne produce rien', 'Q079'),
+('R238', 'La plus petite unité de la vie', 'Q080'),
+('R239', 'La plus grande unité de la vie', 'Q080'),
+('R240', 'La plus complexe unité de la vie', 'Q080'),
+('R241', 'Une structure unique du corps humain', 'Q081'),
+('R242', 'Une collection de cellules du corps humain', 'Q081'),
+('R243', 'Une partie du système nerveux', 'Q081'),
+('R244', 'Stocke et transmet les informations génétiques', 'Q082'),
+('R245', 'Fabrique les protéines', 'Q082'),
+('R246', 'Transporte l''oxygène dans le corps', 'Q082'),
+('R247', 'Par fusion de plusieurs cellules', 'Q083'),
+('R248', 'Par division de cellules', 'Q083'),
+('R249', 'Par la croissance et la spécialisation des cellules', 'Q083'),
+('R250', 'Stockage de l''énergie', 'Q084'),
+('R251', 'Production d''énergie', 'Q084'),
+('R252', 'Transport de l''énergie', 'Q084'),
+('R253', 'Le processus par lequel les cellules produisent de l''énergie', 'Q085'),
+('R254', 'Le processus par lequel les cellules stockent de l''énergie', 'Q085'),
+('R255', 'Le processus par lequel les cellules utilisent de l''énergie', 'Q085'),
+('R256', 'La reproduction par division de cellules', 'Q086'),
+('R257', 'La reproduction par fusion de cellules', 'Q086'),
+('R258', 'La reproduction par fusion de gamètes', 'Q086'),
+('R259', 'La division cellulaire qui produit des cellules germinales', 'Q087'),
+('R260', 'La division cellulaire qui produit des cellules somatiques', 'Q087'),
+('R261', 'La division cellulaire qui produit des cellules souches', 'Q087'),
+('R262', 'Le processus par lequel les espèces changent au fil du temps', 'Q088'),
+('R263', 'Le processus par lequel les espèces restent inchangées au fil du temps', 'Q088'),
+('R264', 'Le processus par lequel les espèces se développent au fil du temps', 'Q088'),
+('R265', 'Un animal qui pond des œufs et a une peau sèche', 'Q089'),
+('R266', 'Un animal qui allaite ses petits et a une peau sèche', 'Q089'),
+('R267', 'Un animal qui a une peau humide et pond des œufs', 'Q089'),
+('R268', 'Le pancréas', 'Q090'),
+('R269', 'Le foie', 'Q090'),
+('R270', 'Les reins', 'Q090'),
+('R271', 'Le marteau (dans l''oreille)', 'Q091'),
+('R272', 'Le petit orteil', 'Q091'),
+('R273', 'La rotule', 'Q091'),
+('R274', 'Les racines', 'Q092'),
+('R275', 'Les feuilles', 'Q092'),
+('R276', 'Les fleurs', 'Q092'),
+('R277', 'Les reins', 'Q093'),
+('R278', 'Le foie', 'Q093'),
+('R279', 'Le cœur', 'Q093'),
+('R280', 'L''iris', 'Q094'),
+('R281', 'La cornée', 'Q094'),
+('R282', 'La sclérotique', 'Q094'),
+('R283', 'Transporter l''oxygène', 'Q095'),
+('R284', 'Combattre les infections', 'Q095'),
+('R285', 'Réguler la température corporelle', 'Q095'),
+('R286', 'Le foie', 'Q096'),
+('R287', 'Le pancréas', 'Q096'),
+('R288', 'Les reins', 'Q096'),
+('R289', 'La pepsine', 'Q097'),
+('R290', 'La lipase', 'Q097'),
+('R291', 'L''amylase', 'Q097'),
+('R292', 'Le scorbut', 'Q098'),
+('R293', 'Le rachitisme', 'Q098'),
+('R294', 'Le béribéri', 'Q098'),
+('R295', 'L''ATP', 'Q099'),
+('R296', 'L''ADP', 'Q099'),
+('R297', 'L''AMP', 'Q099'),
+('R298', 'La respiration cellulaire', 'Q100'),
+('R299', 'La fermentation', 'Q100'),
+('R300', 'La photosynthèse', 'Q100'),
+('R301', 'Les déchets provenant des bateaux de pêche', 'Q101'),
+('R302', 'Les déchets provenant des centrales électriques', 'Q101'),
+('R303', 'Les déchets provenant des rivières et des canaux d''écoulement', 'Q101'),
+('R304', 'Le polyéthylène', 'Q102'),
+('R305', 'Le polypropylène', 'Q102'),
+('R306', 'Le polychlorure de vinyle (PVC)', 'Q102'),
+('R307', 'Emballage alimentaire', 'Q103'),
+('R308', 'Construction de bâtiments', 'Q103'),
+('R309', 'Fabrication de jouets', 'Q103'),
+('R310', 'Plus de 50%', 'Q104'),
+('R311', 'Entre 25% et 50%', 'Q104'),
+('R312', 'Moins de 25%', 'Q104'),
+('R313', 'La mortalité des animaux marins', 'Q105'),
+('R314', 'La perturbation de l''écosystème marin', 'Q105'),
+('R315', 'Les deux réponses A et B', 'Q105'),
+('R316', 'La récupération et le recyclage des déchets plastiques', 'Q106'),
+('R317', 'La production de plastique biodégradable', 'Q106'),
+('R318', 'La réduction de la consommation de plastique à usage unique.', 'Q106'),
+('R319', 'Les véhicules à moteur', 'Q107'),
+('R320', 'Les usines', 'Q107'),
+('R321', 'Les parcs d''attractions', 'Q107'),
+('R322', 'Les voitures', 'Q108'),
+('R323', 'Les avions', 'Q108'),
+('R324', 'Les concerts de musique', 'Q108'),
+('R325', 'Les réverbères', 'Q109'),
+('R326', 'Les panneaux publicitaires', 'Q109'),
+('R327', 'Les étoiles', 'Q109'),
+('R328', 'Les déchets ménagers', 'Q110'),
+('R329', 'Les déchets industriels', 'Q110'),
+('R330', 'Les feux de forêt', 'Q110'),
+('R331', 'Les voitures', 'Q111'),
+('R332', 'Les bus', 'Q111'),
+('R333', 'Les avions', 'Q111'),
+('R334', 'Le dioxyde de carbone', 'Q112'),
+('R335', 'Le méthane', 'Q112'),
+('R336', 'Le protoxyde d''azote', 'Q112'),
+('R337', 'La voiture électrique', 'Q113'),
+('R338', 'Le train', 'Q113'),
+('R339', 'Le vélo', 'Q113'),
+('R340', 'Les avions', 'Q114'),
+('R341', 'Les voitures', 'Q114'),
+('R342', 'Les trains', 'Q114'),
+('R343', 'Les émissions de gaz d''échappement', 'Q115'),
+('R344', 'Le bruit des moteurs', 'Q115'),
+('R345', 'Les collisions', 'Q115'),
+('R346', 'Les sacs en papier', 'Q116'),
+('R347', 'Les sacs en tissu réutilisable', 'Q116'),
+('R348', 'Les sacs en plastique biodégradable', 'Q116'),
+('R349', 'Les gobelets en papier', 'Q117'),
+('R350', 'Les gobelets en verre réutilisable', 'Q117'),
+('R351', 'Les gobelets en plastique biodégradable', 'Q117'),
+('R352', 'Les bouteilles en verre réutilisable', 'Q118'),
+('R353', 'Les bouteilles en métal réutilisable', 'Q118'),
+('R354', 'Les bouteilles en plastique biodégradable', 'Q118'),
+('R355', 'La mise en place de taxes sur les carburants', 'Q119'),
+('R356', 'L''interdiction des véhicules à moteur', 'Q119'),
+('R357', 'L''augmentation des subventions pour l''achat de véhicules électriques', 'Q119'),
+('R358', 'La mise en place de zones de circulation restreinte', 'Q120'),
+('R359', 'L''interdiction de la vente de véhicules à moteur', 'Q120'),
+('R360', 'L''encouragement de l''utilisation des transports en commun', 'Q120'),
+('R361', 'L''augmentation de la température', 'Q121'),
+('R362', 'La perturbation de la reproduction des animaux', 'Q121'),
+('R363', 'La diminution de la qualité de l''observation des étoiles', 'Q121'),
+('R364', 'Les avions', 'Q122'),
+('R365', 'Les voitures', 'Q122'),
+('R366', 'Les usines', 'Q122'),
+('R367', 'La perte auditive', 'Q123'),
+('R368', 'Les troubles du sommeil', 'Q123'),
+('R369', 'Les deux réponses sont vraies', 'Q123'),
+('R370', 'Les déchets organiques', 'Q124'),
+('R371', 'Les pesticides', 'Q124'),
+('R372', 'Les déchets industriels', 'Q124'),
+('R373', 'La perte de la biodiversité', 'Q125'),
+('R374', 'Baisse de la température', 'Q125'),
+('R375', 'L''augmentation de la température', 'Q125'),
+('R376', 'Les rejets industriels', 'Q126'),
+('R377', 'Les pesticides utilisés dans l''agriculture', 'Q126'),
+('R378', 'La pluie acide', 'Q126'),
+('R379', 'Les déchets ménagers', 'Q127'),
+('R380', 'Les déchets industriels', 'Q127'),
+('R381', 'Les rejets de navires', 'Q127'),
+('R382', 'Les rivières', 'Q128'),
+('R383', 'Les lacs', 'Q128'),
+('R384', 'Les nappes phréatiques', 'Q128'),
+('R385', 'Les déchets organiques', 'Q129'),
+('R386', 'Les métaux lourds', 'Q129'),
+('R387', 'Les deux réponses sont vraies', 'Q129'),
+('R388', 'Moins de 5%', 'Q130'),
+('R389', 'Entre 10 et 20%', 'Q130'),
+('R390', 'Plus de 30%', 'Q130'),
+('R391', 'l''agriculture', 'Q131'),
+('R392', 'l''industrie', 'Q131'),
+('R393', 'les besoins domestiques', 'Q131'),
+('R394', 'La diminution des populations animales', 'Q132'),
+('R395', 'L''augmentation de la salinité de l''eau', 'Q132'),
+('R396', 'Les deux réponses sont vraies', 'Q132'),
+('R397', 'H2O2', 'Q133'),
+('R398', 'CO2', 'Q133'),
+('R399', 'H2O', 'Q133'),
+('R400', 'de neige fondue', 'Q134'),
+('R401', 'de roches', 'Q134'),
+('R402', 'de glace de mer', 'Q134'),
+('R403', '50%', 'Q135'),
+('R404', '75%', 'Q135'),
+('R405', '71%', 'Q135'),
+('R406', 'Non', 'Q136'),
+('R407', 'Seulement pour cuisiner', 'Q136'),
+('R408', 'Oui', 'Q136'),
+('R409', 'prés de 60%', 'Q137'),
+('R410', 'prés de 80%', 'Q137'),
+('R411', 'prés de 75%', 'Q137'),
+('R412', '10 jours', 'Q138'),
+('R413', '3 jours', 'Q138'),
+('R414', '7 jours', 'Q138'),
+('R415', '50 litres', 'Q139'),
+('R416', '100 litres', 'Q139'),
+('R417', '150 litres', 'Q139'),
+('R418', 'Les activités agricoles', 'Q140'),
+('R419', 'Les activités minières', 'Q140'),
+('R420', 'Les activités industrielles', 'Q140'),
+('R421', 'La couleur de l''eau', 'Q141'),
+('R422', 'L''odeur de l''eau', 'Q141'),
+('R423', 'Les concentrations de substances chimiques dans l''eau', 'Q141'),
+('R424', '50%', 'Q142'),
+('R425', '70%', 'Q142'),
+('R426', '30%', 'Q142'),
+('R427', 'Océan Arctique', 'Q143'),
+('R428', 'Océan Atlantique', 'Q143'),
+('R429', 'Océan Pacifique', 'Q143'),
+('R430', 'La migration', 'Q144'),
+('R431', 'La mortalité', 'Q144'),
+('R432', 'La modification du comportement', 'Q144'),
+('R433', 'La toilette', 'Q145'),
+('R434', 'La cuisine', 'Q145'),
+('R435', 'L''arrosage du jardin', 'Q145'),
+('R436', 'Le nombre de personnes vivant dans le foyer', 'Q146'),
+('R437', 'La région géographique', 'Q146'),
+('R438', 'Les habitudes de consommation d''eau de chaque personne', 'Q146'),
+('R439', '100 millions', 'Q147'),
+('R440', '500 millions', 'Q147'),
+('R441', '1 milliard', 'Q147'),
+('R442', 'La surconsommation', 'Q148'),
+('R443', 'La pollution', 'Q148'),
+('R444', 'Les variations climatiques', 'Q148'),
+('R445', 'Dans la forêt amazonienne', 'Q149'),
+('R446', 'Dans le désert de Atacama', 'Q149'),
+('R447', 'Dans les montagnes de l''Himalaya', 'Q149'),
+('R448', 'Blanc', 'Q150'),
+('R449', 'Bleu', 'Q150'),
+('R450', 'Vert', 'Q150'),
+('R451', 'Des biens produits par l''homme', 'Q151'),
+('R452', 'Des biens produits par la nature', 'Q151'),
+('R453', 'Des biens produits par les animaux', 'Q151'),
+('R454', 'L''eau', 'Q152'),
+('R455', 'Le soleil', 'Q152'),
+('R456', 'Le charbon', 'Q152'),
+('R457', 'Les minéraux', 'Q153'),
+('R458', 'Les végétaux', 'Q153'),
+('R459', 'L''eau', 'Q153'),
+('R460', 'Le vent', 'Q154'),
+('R461', 'Le charbon', 'Q154'),
+('R462', 'Le pétrole', 'Q154'),
+('R463', 'Le fer', 'Q155'),
+('R464', 'Le cuivre', 'Q155'),
+('R465', 'L''aluminium', 'Q155'),
+('R466', 'Le méthane', 'Q156'),
+('R467', 'Le dioxyde de carbone', 'Q156'),
+('R468', 'L''ozone', 'Q156'),
+('R469', 'Le diamant', 'Q157'),
+('R470', 'Le platine', 'Q157'),
+('R471', 'L''or', 'Q157'),
+('R472', 'Eolienne', 'Q158'),
+('R473', 'Hydroélectrique', 'Q158'),
+('R474', 'Solaire', 'Q158'),
+('R475', 'Production d''électricité', 'Q159'),
+('R476', 'Chauffage des maisons', 'Q159'),
+('R477', 'Traction animale', 'Q159'),
+('R478', 'Plastique', 'Q160'),
+('R479', 'Biocarburant', 'Q160'),
+('R480', 'Métal', 'Q160'),
+('R481', 'Gaz naturel', 'Q161'),
+('R482', 'Charbon', 'Q161'),
+('R483', 'Eolienne', 'Q161'),
+('R484', 'Photovoltaïque', 'Q162'),
+('R485', 'Hydroélectrique', 'Q162'),
+('R486', 'Eolienne', 'Q162'),
+('R487', 'Épuisement rapide', 'Q163'),
+('R488', 'Durabilité', 'Q163'),
+('R489', 'Coût élevé', 'Q163'),
+('R490', 'États-Unis', 'Q164'),
+('R491', 'Allemagne', 'Q164'),
+('R492', 'Chine', 'Q164'),
+('R493', 'Alimentation', 'Q165'),
+('R494', 'Construction', 'Q165'),
+('R495', 'Médecine', 'Q165'),
+('R496', 'Des minéraux', 'Q166'),
+('R497', 'Des débris végétaux et animaux accumulés', 'Q166'),
+('R498', 'Du sable', 'Q166'),
+('R499', 'Du gaz naturel', 'Q167'),
+('R500', 'De l''essence et du diesel', 'Q167'),
+('R501', 'De la vapeur d''eau', 'Q167'),
+('R502', 'Par la décomposition de la matière végétale', 'Q168'),
+('R503', 'Par la décomposition de la matière animale', 'Q168'),
+('R504', 'Par la décomposition de la matière organique sédimentaire', 'Q168'),
+('R505', 'En Asie', 'Q169'),
+('R506', 'En Amérique du Nord', 'Q169'),
+('R507', 'En Europe', 'Q169'),
+('R508', 'Entre 5 et 10 ans', 'Q170'),
+('R509', 'Entre 20 et 25 ans', 'Q170'),
+('R510', 'Entre 30 et 40 ans', 'Q170'),
+('R511', 'En creusant des puits', 'Q171'),
+('R512', 'En creusant des mines à ciel ouvert', 'Q171'),
+('R513', 'En utilisant des forages directionnels', 'Q171'),
+('R514', 'En utilisant la chaleur produite par la Terre', 'Q172'),
+('R515', 'En utilisant la force des marées', 'Q172'),
+('R516', 'En utilisant la force des vagues', 'Q172'),
+('R517', 'En mer', 'Q173'),
+('R518', 'En montagne', 'Q173'),
+('R519', 'En zone volcanique', 'Q173'),
+('R520', 'Russie', 'Q174'),
+('R521', 'Etats Unis', 'Q174'),
+('R522', 'Arabie Saoudite', 'Q174'),
+('R523', 'Silicium', 'Q175'),
+('R524', 'Cuivre', 'Q175'),
+('R525', 'Aluminium', 'Q175'),
+('R526', 'Le magma atteint la surface de la Terre', 'Q176'),
+('R527', 'Tremblements de terre', 'Q176'),
+('R528', 'L''impact d''un météore', 'Q176'),
+('R529', 'Le mont Vésuve ', 'Q177'),
+('R530', 'Le Mauna Loa', 'Q177'),
+('R531', 'Le Mont Fuji', 'Q177'),
+('R532', 'Épicentre', 'Q178'),
+('R533', 'Centre sismique', 'Q178'),
+('R534', 'Hypocentre', 'Q178'),
+('R535', 'Échelle de Mercalli', 'Q179'),
+('R536', 'Échelle sismique', 'Q179'),
+('R537', 'L''échelle de Richter', 'Q179'),
+('R538', 'La tectonique des plaques', 'Q180'),
+('R539', 'L''activité sismique', 'Q180'),
+('R540', 'Mouvement de la Terre', 'Q180'),
+('R541', 'Mexique', 'Q181'),
+('R542', 'Japon', 'Q181'),
+('R543', 'Italie', 'Q181'),
+('R544', 'Eruption volcanique', 'Q182'),
+('R545', 'Tsunami', 'Q182'),
+('R546', 'Les deux', 'Q182'),
+('R547', 'Les tremblements de terre sous-marins', 'Q183'),
+('R548', 'Les éruptions volcaniques', 'Q183'),
+('R549', 'Les deux', 'Q183'),
+('R550', '10 km ', 'Q184'),
+('R551', '100 km ', 'Q184'),
+('R552', 'plus de 100 km', 'Q184'),
+('R553', 'L''océan Atlantique', 'Q185'),
+('R554', 'L''océan Pacifique', 'Q185'),
+('R555', 'L''océan Indien', 'Q185'),
+('R556', 'Aride', 'Q186'),
+('R557', 'Désert', 'Q186'),
+('R558', 'Humide', 'Q186'),
+('R559', 'La haute pression', 'Q187'),
+('R560', 'L''altitude élevée', 'Q187'),
+('R561', 'Le manque de précipitations', 'Q187'),
+('R562', 'Le désert d''Atacama en Amérique du Sud', 'Q188'),
+('R563', 'Le désert du Sahara en Afrique', 'Q188'),
+('R564', 'Le désert du Kalahari en Afrique', 'Q188'),
+('R565', 'Un type de tempête avec des vents forts et de fortes pluies', 'Q189'),
+('R566', 'Une vague océanique géante causée par un tremblement de terre, une éruption volcanique ou un glissement de terrain sous-marin.', 'Q189'),
+('R567', 'Un type de requin que l''on trouve dans l''océan Pacifique.', 'Q189'),
+('R568', 'Un type de tempête', 'Q190'),
+('R569', 'Une période de chaleur excessive', 'Q190'),
+('R570', 'Une maladie tropicale', 'Q190'),
+('R571', 'Les tornades', 'Q191'),
+('R572', 'Les ouragans', 'Q191'),
+('R573', 'Les tremblements de terre', 'Q191'),
+('R574', 'Les tremblements de terre', 'Q192'),
+('R575', 'Les ouragans', 'Q192'),
+('R576', 'Les orages violents', 'Q192'),
+('R577', 'Une augmentation de l''activité sismique', 'Q193'),
+('R578', 'Ciel dégagé et vents calmes', 'Q193'),
+('R579', 'Diminution des émissions de gaz', 'Q193'),
+('R580', 'La foudre', 'Q194'),
+('R581', 'L''activité humaine', 'Q194'),
+('R582', 'Les éruptions volcaniques', 'Q194'),
+('R583', 'Les ouragans se produisent dans l''océan Atlantique, tandis que les typhons se produisent dans l''océan Pacifique.', 'Q195'),
+('R584', 'Les ouragans ont une vitesse de vent plus faible que les typhons.', 'Q195'),
+('R585', 'Il n''y a pas de différence, il s''agit du même type de tempête.', 'Q195'),
+('R586', 'Stromboliene', 'Q196'),
+('R587', 'Pliniene', 'Q196'),
+('R588', 'Vulcaniene', 'Q196'),
+('R589', 'Un ciel clair et des vents calmes', 'Q197'),
+('R590', 'Des pluies abondantes', 'Q197'),
+('R591', 'Un fort grondement', 'Q197'),
+('R592', 'Oasis', 'Q198'),
+('R593', 'Toundra', 'Q198'),
+('R594', 'Désert', 'Q198'),
+('R595', 'Typhon', 'Q199'),
+('R596', 'Tornade', 'Q199'),
+('R597', 'Cyclone', 'Q199'),
+('R598', 'Un tremblement de terre', 'Q200'),
+('R599', 'Éruption volcanique', 'Q200'),
+('R600', 'Tsunami', 'Q200');

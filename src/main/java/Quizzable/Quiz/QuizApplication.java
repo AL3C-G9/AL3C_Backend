@@ -29,10 +29,10 @@ public class QuizApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		categorieService.loadCategorieData();
-		// questionService.loadQuestionData();
-		// reponseService.loadReponseData();
-		// repcorrectesService.loadReponseCorrecteData() ;
-		//hey
+		questionService.loadQuestionData();
+		reponseService.loadReponseData();
+		repcorrectesService.loadReponseCorrecteData() ;
+		
 	}
 
 }

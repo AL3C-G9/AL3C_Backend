@@ -41,7 +41,7 @@ public class Reponse {
     @ManyToOne
     private Question question;
 
-    @OneToOne
-    private ReponsesCorrectes reponseCorrecte;
+    //@OneToOne
+    //private ReponsesCorrectes reponseCorrecte;
 
 }
