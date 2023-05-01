@@ -1,4 +1,4 @@
-package Quizzable.Quiz.model;
+package Quizzable.Quiz.Api.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

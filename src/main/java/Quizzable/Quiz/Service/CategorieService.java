@@ -12,8 +12,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.init.ScriptException;
 import org.springframework.core.io.Resource;
 
+import Quizzable.Quiz.Api.model.Categorie;
 import Quizzable.Quiz.repository.CategorieRepository;
-import Quizzable.Quiz.model.Categorie;
 import io.micrometer.core.instrument.util.IOUtils;
 
 @Service

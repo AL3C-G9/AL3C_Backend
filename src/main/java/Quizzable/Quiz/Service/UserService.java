@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import Quizzable.Quiz.Api.model.User;
 import Quizzable.Quiz.repository.UserRepository;
-import Quizzable.Quiz.model.User;
 
 @Service
 public class UserService {

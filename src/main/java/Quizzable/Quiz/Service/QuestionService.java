@@ -13,9 +13,9 @@ import org.springframework.core.io.Resource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
+import Quizzable.Quiz.Api.model.Question;
 import Quizzable.Quiz.repository.QuestionRepository;
 import io.micrometer.core.instrument.util.IOUtils;
-import Quizzable.Quiz.model.Question;
 
 @Service
 public class QuestionService {
@@ -30,8 +30,8 @@ public class QuestionService {
       return questionRepository.findAll();
    }
 
-   public Question getQuestion(String id) {
-      return questionRepository.findById(id).get();
+   public Question getQuestion(String idq) {
+      return questionRepository.findById(idq).get();
    }
 
    public void saveQuestion(Question question) {

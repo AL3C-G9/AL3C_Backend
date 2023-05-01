@@ -13,9 +13,9 @@ import org.springframework.core.io.Resource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
+import Quizzable.Quiz.Api.model.Reponse;
 import Quizzable.Quiz.repository.ReponseRepository;
 import io.micrometer.core.instrument.util.IOUtils;
-import Quizzable.Quiz.model.Reponse;
 
 @Service
 public class ReponseService {

@@ -14,9 +14,9 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.jdbc.core.JdbcTemplate;
 
+import Quizzable.Quiz.Api.model.ReponsesCorrectes;
 import Quizzable.Quiz.repository.ReponsesCorrectesRepository;
 import io.micrometer.core.instrument.util.IOUtils;
-import Quizzable.Quiz.model.ReponsesCorrectes;
 
 @Service
 public class ReponsesCorrectesService {

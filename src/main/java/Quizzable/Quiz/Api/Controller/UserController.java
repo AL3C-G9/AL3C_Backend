@@ -1,4 +1,4 @@
-package Quizzable.Quiz.Controller;
+package Quizzable.Quiz.Api.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import Quizzable.Quiz.Api.model.User;
 import Quizzable.Quiz.Service.UserService;
-import Quizzable.Quiz.model.User;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
